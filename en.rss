@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+	<channel>
+		<title>OpenRailwayMap</title>
+		<link>http://www.openrailwaymap.org/</link>
+		<description>News about OpenRailwayMap</description>
+		<language>en</language>
+		<copyright>Alexander Matheisen</copyright>
+		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
+		<atom:link href="http://www.matheisen.org/en/orm.rss" rel="self" type="application/rss+xml"/>
+		<lastBuildDate>Thu, 15 Jan 2015 20:20:15 +0200</lastBuildDate>
+		<sy:updatePeriod>daily</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<image>
+			<url>http://www.matheisen.org/rss.svg</url>
+			<title>OpenRailwayMap</title>
+			<link>http://www.openrailwaymap.org/</link>
+		</image>
+		<item>
+			<title>The Karlsruhe hack weekend and what else happend since January</title>
+			<description>Even if there was no new blog article in the last few months, the development has not stopped. Read a short summary of the small changes since January.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-April/000251.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>24</guid>
+			<pubDate>Tue, 28 Apr 2015 01:05:37</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Even if there was no new blog article in the last few months, the development has not stopped. We are happy to welcome Eike (Dakon) as a new developer in our team.</p>
+					<p>Since the <a href="http://www.openrailwaymap.org/blog.php#23">FOSSGIS Hack Weekend in January</a>, the signalling layer was extended by several German and Austrian signals. Now it shows distant sign("Kreuztafel"), shunting stop signs ("Rangierhalttafel" / "Verschubhalttafel") and <a href="http://www.openrailwaymap.org/?lang=en&lat=51.43247087211911&lon=7.125476002693175&zoom=17&style=signals">shunting signs</a> ("Wartezeichen" / "Wartesignale"). The advantage of these three signals is that they are almost equal in Germany and Austria, so that we can use the same icons. The German signals were extended by <a href="http://www.openrailwaymap.org/?lang=en&lat=48.89579669291743&lon=9.0570929646492&zoom=18&style=signals">block marker signs ("Blockkennzeichen")</a>, <a href="http://www.openrailwaymap.org/?lang=en&lat=51.326673073320045&lon=6.622465252876282&zoom=17&style=signals">repeated or shortened light signals type Ks</a> and <a href="http://www.openrailwaymap.org/?lang=en&lat=53.56191864078081&lon=9.957899451255798&zoom=17&style=signals">combined signals type Sv</a>. The maxspeed layer now also <a href="http://www.openrailwaymap.org/?lang=en&lat=50.23435968080233&lon=6.837787628173828&zoom=12&style=maxspeed">shows disused and construction tracks</a>, which are rendered in lighter colours to make them distinguishable from active railroads. In infrastructure layer, <a href="http://www.openrailwaymap.org/?lang=en&lat=50.91706673391947&lon=6.9746071100234985&zoom=17&style=standard">bridge and tunnel names</a> tagged with bridge:name and tunnel:name are favoured over track names. Bridges and tunnels at tracks such as monorails, which are not traditional railroads, are not rendered any more. In the past this caused unexpected results on the map.</p>
+					<p>In the meantime, Eike improved the rendering of signal boxes and moved them to the more appropriate signalling layer. Signal boxes are now <a href="http://www.openrailwaymap.org/?lang=en&lat=50.94993461671844&lon=6.951475739479064&zoom=17&style=standard">rendered in green with names</a>. Some bugfixes at <a href="https://github.com/rurseekatze/node-tileserver">node-tileserver</a> were necessary to render signal boxes tagged as buildings. The infrastructure layer now also visualizes turntables and traversers.</p>
+					<p>To improve the data quality, more <a href="https://github.com/rurseekatze/OpenRailwayMap/blob/master/validator/openrailwaymap.validator.mapcss">validation rules for JOSM</a> were added. These new rules check e.g. whether track numbers are tagged correctly and not as names or if signals have logical tagging issues. Features are also checked for various deprecated and not supported tags.</p>
+					<p>There were some changes of the JOSM presets, too: Items for platform section signals ("Zugdeckungssignal"), <a href="http://www.tf-ausbildung.de/SignalbuchOnline/ne14.htm">ETCS stop signs (Ne 14)</a> and some new icons were added to the German preset. The signals were retagged with the new country-operator-prefixes. Tagging changes, that were decided at the <a href="http://wiki.openstreetmap.org/wiki/OpenRailwayMap/Mappingwochenende_2014_1">meetings in Cologne</a> and <a href="http://wiki.openstreetmap.org/wiki/OpenRailwayMap/Aktiventreffen_2014_2">Bad Nauheim</a>, were applied to some items. There were also some bugfixes of syntax errors and translations to English.</p>
+					<p>There are also some new features on the website: Users can view the railway overlay without any basemap. The search now also finds spur junctions tagged as railway=spur_junction. Kudret Emre added a Turkish translation of the website, thanks a lot!</p>
+					<p>Some new features such as icons for crossings in infrastructure layer, rendering of track numbers, German distant signs with shortened braking distance, German light speed limit signals and catenary signals (in Germany and Austria) are still under construction.</p>
+					<p>We thank Geofabrik from Karlsruhe for hosting the <a href="http://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_February_2015">OSM Hack Weekend in February</a>, where Alex and Michael implemented a part of the new features mentioned above.</p>
+					<p>Beside finishing the pending changes, improvements of the legend, updates and additions of the translations and a redesign of the website stand on our todo list. The signalling layer will be continously extended by Austrian and Dutch signals. The search will be improved, so that it returns also disused, abandoned, constructed and proposed stations. Tracks used for tourism or military purposes, which are currently not rendered on the map, will be visualized, too.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>FOSSGIS Hack Weekend at Linuxhotel in Essen</title>
+			<description>Last weekend, the FOSSGIS Hack Weekend took place at Linuxhotel in Essen, Germany. Two contributors of the OpenRailwayMap attended this event and created new signal icons, a tagging preset for Austria and much more.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-January/000188.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>23</guid>
+			<pubDate>Thu, 15 Jan 2015 20:20:15</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Last weekend (January 9–11, 2015) Alexander (<a href="https://wiki.openstreetmap.org/wiki/User:Rurseekatze">rurseekatze</a>) and Michael (<a href="https://wiki.openstreetmap.org/wiki/User:Nakaner">Nakaner</a>) stayed at FOSSGIS Hack Weekend at Linuxhotel in Essen, Germany. <a href="http://www.fossgis.de/">FOSSGIS e.V.</a> is quasi, but not official OpenStreetMap Foundation Local Chapter in Germany and funds free software/projects around GIS software and OpenStreetMap. <a href="http://linuxhotel.de/">Linuxhotel</a> is a hotel only for Linux and open source software training. At weekends, open source software communities can stay there for cheap prices.</p>
+					<p>While Alex created a <a href="http://www.openrailwaymap.org/josm-presets/">JOSM preset for Austrian railways</a> this weekend, Michael did a couple of smaller fixes and improvements. He added German crossing signals (Bü 0/1), the Sv signals of Hamburg Light Rail ("S-Bahn") and an icon for Sh 2 signs. He replaced icons of Ks signals by new ones. To be able to differ between Hp 0 ("stop") of Ks system and other systems which have a red light, he decided to change the meanings of the Ks icons. Hp 0 (red light at the top of the signal) now represents a Ks combined signal (prior Hp 0 represented a Ks main signal). Ks 1 (green light in the center) represents a Ks main signal (prior Ks 1 represented Ks combined signals). Ks 2 (yellow light at the right) represents a Ks distance signal (prior Ks 2 represented Ks combined signals).</p>
+					<p>Michael also improved the infrastructure style. OpenRailwayMap now renders tunnel and bridge names which are tagged using tunnel:name=* and bridge:name=*. Trams will be rendered at zoom level 10+ now and industrial tracks won't be as thick is usual.</p>
+					<p>As requested in a couple of bug reports, Michael improved maxspeed style. From now on, speed limits of disused and being constructed tracks will be rendered, too. We will not render speed limits of abandoned or proposed tracks.</p>
+					<p>Since two weeks, the tracks in the signalling layer are rendered as grey lines for a better orientation.</p>
+					<p>Note that these changes still need to be deployed on the webserver and are not visible on the homepage yet. This will be done soon.</p>
+					<p>We thank FOSSGIS for offering this location and event to improve OpenRailwayMap and look forward to the next FOSSGIS Hack Weekend. The next hacking event with participation of OpenRailwayMap will be the <a href="https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_February_2015">Hackweekend im Februar</a> in der Geofabrik in Karlsruhe.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>German Hl Signals</title>
+			<description>Hl signals are main and combined light signals used by 'Deutsche Reichsbahn' (predecessor of 'Deutsche Bahn' in the German Democratic Republic). OpenRailwayMap now renders them.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-December/000181.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>22</guid>
+			<pubDate>Mon, 29 Dec 2014 23:58:15</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Hl signals are main and combined light signals used by 'Deutsche Reichsbahn' (predecessor of 'Deutsche Bahn' in the German Democratic Republic). OpenRailwayMap now renders them (<a href="http://www.openrailwaymap.org/?lang=de&lat=51.28036037134125&lon=11.563324928283691&zoom=14&style=signals">example</a>).</p>
+					<p>It took a while to implement this signal system because it has a lot of different views it can show. Hl signals have two signal functions in one signal. The upper two lights show which signal the train driver has to expect. The middle red light is used for Hp 0 (formerly known as <a href="http://de.wikipedia.org/wiki/Datei:HL13.png">Hl 13</a>), its <a href="http://de.wikipedia.org/wiki/Datei:HL13_Ersatzlampe.png">replacement light</a> is located at the lower right. The lower left light is yellow and turned on if the signals shows a reduced speed. This is 40 km/h by default and can be increased by a yellow (60 km/h) or green (100 km/h) bar below the signal.</p>
+					<p>But now back to map. Icons at OpenRailwayMap should show which signals the signal can show. With H/V semaphore and light signals we introduced the convention that a signal showing stop (red light) means that we do not have information about its possible signals.</p>
+					<p>Block signals can only show <a href="http://de.wikipedia.org/wiki/Datei:Hl1.png">Hl 1</a>, <a href="http://de.wikipedia.org/wiki/Datei:Hl10.png">Hl 10</a> and <a href="http://de.wikipedia.org/wiki/Datei:HL13.png">Hl 13</a> (i.e. they cannot show <a href="http://de.wikipedia.org/wiki/Datei:Hl2.png">Hl 2</a>, <a href="http://de.wikipedia.org/wiki/Datei:Hl3a.png">Hl 3a</a> and <a href="http://de.wikipedia.org/wiki/Datei:Hl3b.png">Hl 3b</a>. They are rendered as <a href="http://de.wikipedia.org/wiki/Datei:Hl1.png">Hl 1</a> (green light if signal has no distant signal function) or <a href="http://de.wikipedia.org/wiki/Datei:Hl10.png">Hl 10</a> (if the signal is combined signal).</p>
+					<p>If the signal cannot show a green or yellow bar, it is rendered as <a href="http://de.wikipedia.org/wiki/Datei:Hl3a.png">Hl 3a</a>¹ (green light at the top, yellow light below)/<a href="http://de.wikipedia.org/wiki/Datei:Hl12a.png">Hl 12a</a>² (both lights yellow).</p>
+					<p>If the signal has a light bar but can only show a yellow one (green lights missing), the signals is rendered as <a href="http://de.wikipedia.org/wiki/Datei:Hl3b.png">Hl 3b</a>¹ (green light at the top, yellow below, yellow bar at the bottom)/<a href="http://de.wikipedia.org/wiki/Datei:Hl12b.png">Hl 12b</a>² (both single lights yellow, yellow bar below).</p>
+					<p>If the signal has two light bars, the signals is rendered as <a href="http://de.wikipedia.org/wiki/Datei:Hl2.png">Hl 2</a>¹ (green light at the top, yellow below, green bar at the bottom)/<a href="http://de.wikipedia.org/wiki/Datei:Hl11.png">Hl 11</a>² (both single lights yellow, green bar below).</p>
+					<p>Hl signals which are <i>only</i> distant signals (not main or combined signals) are rendered as <a href="http://de.wikipedia.org/wiki/Datei:Hl1.png">Hl 1</a> with sign <a href="http://commons.wikimedia.org/wiki/File:Ne_2.svg">Ne 2</a> (distant signal sign).</p>
+					<p>Apart from two exotic German signals sytems – Sk and Sv system, we now have all signal systems used in Germany at OpenRailwayMap. If you want to see your local signal system, provide us following information:</p>
+					<ul>
+						<li>a German or English description of your signal system (we will suggest you a tagging scheme based on it)</li>
+						<li>suitable signal icons as SVG files</li>
+						<li>suggestions for rendering rules (you do not have to provide MapCSS)</li>
+					</ul>
+					<p>¹ signals which are not distant signals, too</p>
+					<p>² combined signals</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Database update problems resolved</title>
+			<description>After it had been no or only irregular updates for the last several weeks, the data updates are now running properly again.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-December/000179.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>21</guid>
+			<pubDate>Tue, 09 Dec 2014 22:28:15</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Since last friday, the data updates are running again without problems, after it had been <a href="http://lists.openrailwaymap.org/archives/openrailwaymap/2014-October/000136.html">no or only irregular updates</a> for the last several weeks.</p>
+					<p>Unfortunately, the update process could not be switched to the Augmented Diffs of the Overpass API <a href="http://lists.openrailwaymap.org/archives/openrailwaymap/2014-October/000140.html">as intended</a>, because the format is currently not appropriate for our purposes, so we keep the current toolchain. The required space was created by changing the RAID level of the two SSDs. Instead of being configured as RAID-1, they are now configured as RAID-0, which offers twice the storage space and a slightly higher performance at no additional costs.</p>
+					<p>The only disadvantage of this solution is the higher risk of data loss in cases of disk failures. In my opinion this problem is not that important, as there are only a few data which are not also stored anywhere else. This data can also easily be saved periodically on another computer and restored after a total failure and the following reinstallation of the system.</p>
+					<p>However, an additional conventional hard disk for the server would be desirable to make full backups of the system comfortably and to restore the system in case of failure. But it costs extra money again...</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>OpenRailwayMap Meeting in Bad Nauheim, Germany</title>
+			<description>The second OpenRailwayMap Meeting took place in Bad Nauheim near Frankfurt (Main), Germany on 24 to 26 October 2014. It was a extension to the first "Mapping Weekend" in Cologne in July. Tagging discussions, which had been skipped due to a lack of time (or too much topics), and new tagging related questions and proposals were discussed now.</description>
+			<link>https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>20</guid>
+			<pubDate>Mon, 03 Nov 2014 21:03:05</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The <a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Aktiventreffen_2014_2">second OpenRailwayMap Meeting</a> took place at user spth's home in <a href="http://www.openrailwaymap.org/?lang=de&lat=50.3678543750527&lon=8.74908502598765&zoom=14&style=standard">Bad Nauheim</a> near Frankfurt (Main) on 24 to 26 October 2014. It was a extension to the <a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Mappingwochenende_2014_1">first "Mapping Weekend" in Cologne in July</a>. Tagging discussions, which had been skipped due to a lack of time (or too much topics), and new tagging related questions and proposals were discussed now.</p>
+					<p>The two other attendees, Michael (<a href="https://wiki.openstreetmap.org/wiki/User:Nakaner">Nakaner</a>) and Alex (<a href="https://wiki.openstreetmap.org/wiki/User:rurseekatze">rurseekatze</a>), used their journey there to map. Michael went a detour by train from Karlsruhe over Heilbronn and <a href="http://en.wikipedia.org/wiki/Odenwald_Railway_%28Hesse%29">Hessian Odenwald Railway</a> and mapped their using GPS waypoints. Alex filmed between Düsseldorf and Cologne as long as his ICE was not too fast.</p>
+					<p>You can find the <a href="https://wiki.openstreetmap.org/wiki/DE:OpenRailwayMap/Aktiventreffen_2014_2#Protokoll">detailled protocol</a> at OpenStreetMap Wiki. The most important topics were:</p>
+					<p>A <a href="http://forum.openstreetmap.org/viewtopic.php?pid=454509">discussion in German OpenStreetMap Forum</a> made us to discuss differentiation between heavy railwas, light railway lines, trams and subways on <a href="https://wiki.openstreetmap.org/wiki/DE:OpenRailwayMap/Aktiventreffen_2014_2#Freitag.2C_der_24._Oktober_2014">Friday evening</a>. We also discussed the tag railway=narrow_gauge. We think that this tag is an outdated synonym for railway=rail. We think that change these tagging in OSM database is useless.</p>
+					<p>If <a href="http://en.wikipedia.org/wiki/Gauntlet_track">tracks are interlaced</a>, we suggest to map all tracks as separate OSM ways and to tag these ways with railway:interlaced=yes. If passing is prohibited between two tracks, you can now use railway:passing_prohibited=left/right/yes/both.</p>
+					<p>The tagging discussions were continued on <a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Aktiventreffen_2014_2#Saturday.2C_25._October_2014">Saturday morning</a>. Contrary to the rule not to tag ways both with usage=* and service=*, we decided that usage=* and service=* should be allowed for industrial siding and yard tracks to be able to differ between industrial and normal siding/yard tracks in rendering.</p>
+					<p>We defined new tags for meter load and axle load – meter_load=* and axle_load=*.</p>
+					<p>We could not reach a settlement in the question how to use maxspeed=* if there are different speed limits for different types of vehicles (e.g. trains with and without ability to tilt in curves or vehicles with/without eddy current break).</p>
+					<p>If a power line is mounted on catenary masts, you can now tag the mast with power=catenary_mast. This tag can also be used for the masts of trolleybusses and electric ships. We also invented new tags for power supply into catenary, jumpering of separators of catenary, the <a href="http://en.wikipedia.org/wiki/Bordeaux_tramway#Electric_power_.2F_Ground-level_power_supply">ground level power supply of Bordeaux tram</a>, crossing boxes, blockposts and sidings.</p>
+					<p>On Saturday afternoon we went outside to map along the railway lines to Gambach and Gießen.</p>
+					<p>Because mappers have been using railway=owner_change, different form designation, for owner changes (e.g. between a national railway company and a private company), we decided to introduce railway=border for owner changes near country borders.</p>
+					<p>We also invented tags for <a href="http://commons.wikimedia.org/wiki/File:Apcpsspaa.JPG">automatically rising roadway barricades</a> on Russian level crossings and <a href="http://de.wikipedia.org/wiki/Bahn%C3%BCbergang#mediaviewer/File:Great_Bentley_330.jpg">in UK used gates</a> on level crossings. If a level crossing has a saltire, it now can be tagged as crossing:saltire=yes. The new key crossing:supervision=* describes how railway personell takes care that no vehicles remain behind closed boom gates. This can be happen by a level crossing attendant, camera or radar scanners. We also decided to introduce a new tag for the time between closure and reopening of a level crossing.</p>
+					<p>On <a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Aktiventreffen_2014_2#Sunday.2C_26._Oktober_2014">Sunday</a> we invented signals for German trams and Berlin subway. This made us changing tagging of <a href="http://en.wikipedia.org/wiki/Linienzugbeeinflussung">LZB</a> signals. Now every signal which is related to a train protection system <a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Aktiventreffen_2014_2#zugsicherungssignale">should be tagged as railway:signal:train_protection=*</a>.</p>
+					<p>Just before the end, we created tags for some facilities which can be found in depots like sand stores and drinking water supply.</p>
+					<p>On the retourn journey, Michael and Alex mapped, too. Michael filmed between Friedberg and Frankfurt (Main) and between Frankfurt (Main) and Weinheim-Lützelsachsen until it became too dark outside and the phone battery became empty. Alex filmed <a href="http://en.wikipedia.org/wiki/West_Rhine_Railway">West Rhine Railway</a> between Mainz and Koblenz until as long as it was bright enough.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Karlsruhe Hack Weekend</title>
+			<description>Auf dem Hackweekend der Geofabrik in Karlsruhe wurde fleißig am Signallayer geschraubt.</description>
+			<link>https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>19</guid>
+			<pubDate>Mon, 20 Oct 2014 22:25:10</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Although most of the strike of Gewerkschaft der Lokomotivführer (<a href="http://en.wikipedia.org/wiki/Gewerkschaft_Deutscher_Lokomotivf%C3%BChrer">German Train Drivers' Trade Union</a>) last weekend, Alexander Matheisen (<a href="https://wiki.openstreetmap.org/wiki/User:Rurseekatze">rurseekatze</a>) came to <a href="https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014">OpenStreetMap Hack Weekend</a> at <a href="http://www.geofabrik.de/en/index.html">Geofabrik</a> in Karlsruhe, Germany. Together with Michael Reichert (<a href="https://wiki.openstreetmap.org/wiki/User:Nakaner">Nakaner</a>), he continued work on OpenRailwayMap's map styles.</p>
+					<p>Now all tracks without a maxspeed tag are rendered as grey lines, so that the map does not look so gappy any more. Tracks are only rendered at that zoom levels they would be rendered in infrastructure style. That's why the blue lines of trams and siding tracks will not mar the map at low zoom levels any more. Roads with railway tracks (e.g. abandoned railways which are now used as roads) will not be rendered in maxspeed style. Rendering of disused and abandoned tracks has been removed from maxspeed style but we ponder to add rendering of railway lines which are 
+under construction or disused in a brighter colour.</p>
+					<p>A large bunch of changes happened to the signalling layer. It now renders a lot of German main and distant signals (all <a href="http://en.wikipedia.org/wiki/German_railway_signalling#Main_signal.2Fdistant_signal_.28H.2FV.29">H/V</a> distant signals and H/V semaphore main signals) with new icons. We also added icons for <a href="http://en.wikipedia.org/wiki/Whistle_post#Germany">whistle</a> and ring signs, entry signals of stations on branch lines ([Ne1](http://en.wikipedia.org/wiki/German_railway_signalling#Ne1_Trapeztafel)), halt distant signal (<a href="http://en.wikipedia.org/wiki/German_railway_signalling#Ne6_Haltepunkttafel">Ne6</a>).</p>
+					<p>Michael has drawn icons of <a href="http://www.sh1.org/eisenbahn/shhl.htm">Hl signalling system</a> of former <a href="http://en.wikipedia.org/wiki/Deutsche_Reichsbahn_%28East_Germany%29">Deutsche Reichsbahn of GDR</a>, <a href="http://www.sh1.org/eisenbahn/snsh.htm">shunting signals</a> and <a href="http://www.sh1.org/eisenbahn/snbu.htm">crossing distant signals</a>. They will be added soon.</p>
+					<p>All these icons are from Michael's collection <a href="https://github.com/Nakaner/railway-signals">railway-signals</a>. He had to modify some of them for OpenRailwayMap due to the small size of the icons (e.g. semaphore signals, Hp light main signals, crossing distant signals).</p>
+					<p>Another attendee of Karlsruhe Hack Weekend had a surprise for us in store. Arndt Breschede, developer of <a href="http://brouter.de/brouter/">Android bicycle router BRouter</a> (<a href="http://brouter.de/brouter-web/">web interface</a>, <a href="https://play.google.com/store/apps/details?id=btools.routingapp&hl=de">Google Play</a>), has written a very simple <a href="http://brouter.de/brouter/profiles2/rail.brf">routing profile for trains</a>. At the moment it calculates routes over everything which has rails, regardless if this is a train track or a tram track. It uses opposite track of two-tracked railway lines, too. If you have time, you <a href="http://brouter.de/brouter/profile_developers_guide.txt">can extend this profile</a>. You can test own routing profiles at <a href="http://brouter.de/brouter-web/">BRouter-Web</a> by entering your profile content in the text field at the left bottom. One nice feature of BRouter is the ability to define no-go areas. We might integrate a router based on this application into OpenRailwayMap website in future.</p>
+					<p>Diffent than originally planned, Alex could not do some mapping on <a href="http://en.wikipedia.org/wiki/West_Rhine_Railway">West Rhine Railway</a> on his way home because the EC 6 replacement train was overcrowed and he could not get a seat next to the window.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Validation of railway data with JOSM</title>
+			<description>There is a new ruleset for JOSM which makes it easy to find and correct tagging issues of railroad data.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-October/000134.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>18</guid>
+			<pubDate>Tue, 07 Oct 2014 20:31:27</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>I have often seen various tagging mistakes while mapping railroads. Some day I experienced that JOSM offers a possibility to extend the built-in validator by <a href="https://josm.openstreetmap.de/wiki/Help/Validator/MapCSSTagChecker">MapCSS-like rules</a> and thought "hey, wouldn't it be great to use this for a railroad-data-validator?".</p>
+					<p>Now I have started such a <a href="https://github.com/rurseekatze/OpenRailwayMap/blob/master/validator/openrailwaymap.validator.mapcss">validation file for JOSM</a>. [2] It includes a first selection of a few typical tagging issues, but I still have a very long list of more issues and will add them step by step.</p>
+					<p>Every railroad mapper may have experienced typcial tagging mistakes, too. It would be nice if more mappers could add some rules. The easiest way would be pull requests, but suggestions by email are also good.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>German speed signals almost complete</title>
+			<description>The icons of german speed signals are now almost complete. In many places, there are already lots of mapped signals visible on the map.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-July/000121.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>15</guid>
+			<pubDate>Thu, 31 Jul 2014 09:39:27</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Since yesterday, almost all german speed signals are rendered on the map. Switching to the maxspeed layer, there are already lots of mapped signals visible on the map. Zs 3(v) light signals are not rendered yet due to a difficult visualization of the different possible signal values. There are already ideas on how to visualize there signals. Signals of temporary speed restrictions ("Langsamfahrstelle") (Lf 1/2 and 1-5) are currently missing, too. Since temporary speed restrictions are usually not mapped in OpenStreetMap, this is not a major disadvantage.</p>
+					<p>A demo area, where almost every speed signal is mapped, can be found <a href="http://www.openrailwaymap.org/?lat=51.20596923119336&lon=6.695265769958496&zoom=14&style=maxspeed">here</a>. The rendering of the signals on the map should motivate mappers to map even more of these signals.</p>
+					<p>Soon we will add more signal icons to the signalling layer and replace existing symbols by nicer icons.</p>
+					<p>Many thanks to our icon illustrators <a href="http://www.twitter.com/Nakaner">Michael</a> and <a href="http://www.twitter.com/ubahnverleih">Consti</a>!</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Looking back at the OpenRailwayMap Mapping Weekend</title>
+			<description>The first OpenRailwayMap Mapping Weekend (with tagging discussion) took place in Cologne, Germany from 11 to 13 July 2014. Besides meeting other railway infrastructure mappers and mapping two railway lines, we discussed about extensions and changes of the railway tagging scheme. Here a report of this successful event.</description>
+			<link>http://wiki.openstreetmap.org/wiki/OpenRailwayMap/Mappingwochenende_2014_1</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>15</guid>
+			<pubDate>Mon, 14 Jul 2014 18:27:01</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The first OpenRailwayMap Mapping Weekend (with tagging discussion) took place in Cologne, Germany from 11 to 13 July 2014. It was a knowledge and communion exchange between the railway infrastructure mappers in Germany. We discussed about extensions and changes of the railway tagging scheme. <a href="http://wiki.openstreetmap.org/wiki/%C3%96V_Firma_Mentz_Datenverarbeitung_GmbH">Mentz Datenverarbeitung</a> was represented by Emrah Kutlu.</p>
+					<p>At Friday evening the attendees arrived at the event location, <a href="(http://de.wikipedia.org/wiki/Wikipedia:Lokal_K)">Lokal K</a>, and we got to know each other. We talked about public relations work for OpenRailwayMap and how to get new mappers (especially people who are no mappers at the moment but interested in trains and railways). Afterwards everyone presented his mapping techniques.</p>
+					<p>On Saturday morning we first had a breakfast at Lokal K which faded to a presentation of OSM-related work of Mentz Datenverarbeitung, a company form Munich, developing software for public transport companies, by Emrah.</p>
+					<p>He presented their experiments to route over the German railway network and the routing errors they found. We explained him the tags <a href="https://wiki.openstreetmap.org/wiki/Key:service#Railways">service=*</a>, <a href="https://wiki.openstreetmap.org/wiki/Key:usage">usage=*</a> and <a href="http://wiki.openstreetmap.org/wiki/Key:maxspeed">maxspeed=*</a>. We realized that there is a demand for tagging the normal direction of traffic of railway tracks to improve routing. The normal direction of traffic is the direction into trains usually use a railway track. This is the right track at double-track lines in Germany, it is the left track in other countries (e.g. UK, France, Switzerland). If there is the possibility to change the track on a double-track line before and after a curve, the routing algorithm might use the inner (opposite) track of the curve even if the train would block this track for trains of opposite direction. That&#8217;s trains usually avoid usage of the opposite track.</p>
+					<p>At Saturday afternoon we paused discussions and went outdoor to map. <a href="http://wiki.openstreetmap.org/wiki/User:Ubahnverleih">Consti</a>, <a href="http://wiki.openstreetmap.org/wiki/User:Rurseekatze">Alex</a>, <a href="http://wiki.openstreetmap.org/wiki/User:Nakaner">Michael</a>, and <a href="http://www.openstreetmap.org/user/rotkelch">Emrah</a> went by train from Köln West to Euskirchen. Emrah left the event there because he had to travel back to the airport, the other ones journeyed on to Bad Münstereifel and afterwards back to Cologne via Euskirchen.</p>
+					<p>The train from Cologne to Euskirchen was an older <a href="http://en.wikipedia.org/wiki/DB_Class_628">diesel trainset class 628</a>. Due to the lack of GPS reception (apart from the door window and the gaiter we could just do simple video and photo mapping without georeferencing although the railway line is not electrified after Hürth-Kalscheuren. In Euskirchen we changed into a local train to Bad Münstereifel. The railway line to <a href="http://www.openrailwaymap.org/?lang=de&amp;lat=50.56154111289475&amp;lon=6.770131587982178&amp;zoom=15&amp;style=standard">Bad Münstereifel</a> is a not-electrified branch line. In Bad Münstereifel we stayed in the train and travelled back to Euskirchen. This rail ride took place in a modern <a href="http://en.wikipedia.org/wiki/Bombardier_Talent">Talent 1 diesel trainset</a> which had a very good GPS reception at every place inside the train. That&#8217;s why it was possible to take a lot of geotagged photos. Alex took photos of almost every signal and Consti indulged his passion of mapping ticket vending machines and their reference numbers for his [ticket vending machine map]((http://osm.lyrk.de/fahrkartenautomaten/#12/50.6083/6.8071). During change of direction at Bad Münstereifel the train driver was friendly and let the curtain of back cabin open so that we could take photos into the back direction.</p>
+					<p>In Euskirchen we did not use the Regionalexpress (express train) to Cologne but the slower and 30 minutes later departing local train to Cologne. In the meantime we mapped Euskirchen station using photomapping. Alex took photos using his 70–300 mm telephoto lens especially signals, signal numbers and more distant objects, I took overview photos using a 18–105 mm lens. The station building and the station forecourt were mapped, too.</p>
+					<p><a href="](http://www.openrailwaymap.org/?lang=de&amp;lat=50.65930984736032&amp;lon=6.792190074920654&amp;zoom=15&amp;style=standard)">Euskirchen train station</a> is getting new <a href="http://en.wikipedia.org/wiki/German_railway_signalling#Kombinationsignale">Ks</a> <a href="http://en.wikipedia.org/wiki/Railway_signal#Colour_light_signals">light signals</a> (<a href="http://de.wikipedia.org/wiki/Ks-Signalsystem">see the German Wikipedia article for images</a>) and an electronic signalbox at the moment. Not all new signals are mounted at the moment but we decided only to map the newer ones because the older ones won&#8217;t stay there longer than a few months. The results of our mapping tour to Euskirchen and Bad Münstereifel are not uploaded to OpenStreetMap at the moment. This will take place soon.</p>
+				<p>After arrival at Lokal K we continued tagging discussions. At about 8.00 p.m. <a href="http://www.openstreetmap.org/user/jotpe">jotpe</a>, a local mapper from Cologne, joined us. Around midnight we stopped tagging discussion and went back to our flat to sleep.</p>
+				<p>Consti and Peter departed directly from the flat the next morning. Alex and Michael went to Lokal K where they met user spth from Frankfurt. They discussed a lot of open tagging issues, e.g. the ORM opinion if train stations (the station at whole, not the building) should be mapped as areas or nodes. We decided to change a few railway infrastructure tags which are used little at the moment and whose key or value names had been chosen badly. The tagging discussion took until 5.30 p.m.</p>
+				<p>The protocol can be found at OpenStreetMap wiki. The <a href="(https://wiki.openstreetmap.org/wiki/DE:OpenRailwayMap/Mappingwochenende_2014_1#Protokoll)">German version</a> covers everything, the <a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Mappingwochenende_2014_1">summarizing English version</a> only the tagging discussion) and a few other parts.</p>
+				<p>The Lokal K is very suitable for meetings like this. We would like to thank the Cologne Wikipedia community for their hospitality and recommend it hereby. If it had a shower you could also sleep there (on the floor).</p>
+				<p>We plan a second meeting to discuss all issues we have not finally decided yet. This meeting will take place more centrally in Germany or in the Frankfurt area.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>New translations and updates</title>
+			<description>The website is now also available in Dutch, French, Portugese, Swedish and Ukrainian. There were also some updates of existing translations.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-June/000097.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>14</guid>
+			<pubDate>Wed, 25 Jun 2014 22:24:37</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The website at <a href="http://www.openrailwaymap.org/">openrailwaymap.org</a> is now also available in Dutch, French, Portugese, Swedish and Ukrainian.</p>
+					<p>There were also updates of the Czech, German, Spanish, Polish, Russian and Vietnamese translations, which added missing strings and corrected some errors.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>First mapping event</title>
+			<description>We are planning the first OpenRailwayMap mapping weekend and looking for interested mappers.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-May/000041.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>13</guid>
+			<pubDate>Sun, 18 May 2014 12:53:34</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The community of railway mappers within OSM is getting bigger and the project OpenRailwayMap is expanding continously. Therefore, it is now time to get to know one another.</p>
+					<p>Therefore we are planning a mapping event, whose aim is to map a poorly covered area as completely as possible. To do this, we would go out in small groups to travel railways lines and explore smaller areas by foot. After this we would continue with entering the collected data and the social part of this event.</p>
+					<p>Currently we are still in the planning phase and clarify when and where the event will take place. The current state of planning and more information can be found in the <a href="https://wiki.openstreetmap.org/wiki/DE:OpenRailwayMap/Mappingwochenende_2014_1">OSM Wiki</a> and in a <a href="https://terminplaner2.dfn.de/foodle/OpenRailwayMap-Mappingwochenende-Nr-1-2014-53811">voting</a>.</p>
+					<p>We need enough participants, so that such an event can take place.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Improved rendering of maxspeeds</title>
+			<description>Issues with the rendering of maxspeeds in mph have been resolved.</description>
+			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/a0f2f88e75fbd3e330bf7ac5afc42a17d97ae66b</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>12</guid>
+			<pubDate>Sun, 04 May 2014 16:35:10</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>After an style update, not just values ​​in steps of 5 km/h, but any speed value is considered ​​for the rendering of the maxspeed layer. The previous rendering style caused that lines with different speed values ​​were not drawn on the map. Primarily lines in the UK, where the maxspeed values ​​were tagged in km/h instead of mph (the conversion produced odd values), ​​were affected by this problem.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>OpenRailwayMap on Twitter</title>
+			<description>OpenRailwayMap now has an official account on twitter.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-May/000035.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>11</guid>
+			<pubDate>Fri, 02 May 2014 19:56:17</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The OpenRailwayMap is now represented with its own <a href="http://www.twitter.com/openrailwaymap">account on Twitter</a>. There you will find information about new features of OpenRailwayMap, railroad mapping and interesting places on the map.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Mobile website</title>
+			<description>The website of the OpenRailwayMap has been optimized for mobile devices. This makes it easier to use it on mobile devices.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000032.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>10</guid>
+			<pubDate>Wed, 23 Apr 2014 16:54:12</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>It is now easier to use the OpenRailwayMap on smartphones and tablets: By visiting <a href="http://www.openrailwaymap.org/">openrailwaymap.org</a> from a mobile device, the user is automatically redirected to a mobile version. Opening <a href="http://m.openrailwaymap.org/">m.openrailwaymap.org</a> forces the mobile site even on a desktop computer.</p>
+					<p>The mobile website is - apart from the background map - fully adapted to Retina displays.</p>
+					<p>Provided you have an internet connection, it is as easy as never before to use OpenRailwayMap on the go. With the ability to get the own position by Geolocation API, it is possible to follow the train's location on the map. Even the question whether the train you are sitting in is currently standing in front of a block signal can be answered easily.</p>
+					<a href="http://wiki.openstreetmap.org/w/images/a/aa/OpenRailwayMap-mobile-2014-04-25a.png"><img src="http://wiki.openstreetmap.org/w/images/a/aa/OpenRailwayMap-mobile-2014-04-25a.png" width="120px" style="border: 1px solid black; margin-left: 10px;" /></a>
+					<a href="http://wiki.openstreetmap.org/w/images/7/79/OpenRailwayMap-mobile-2014-04-25b.png"><img src="http://wiki.openstreetmap.org/w/images/7/79/OpenRailwayMap-mobile-2014-04-25b.png" width="120px" style="border: 1px solid black; float: left;" /></a>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Restructered signal tagging scheme</title>
+			<description>For a clearer distinction between international and country-specific definitions, the tagging-related wiki pages have been restructured.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000030.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>9</guid>
+			<pubDate>Sun, 13 Apr 2014 01:14:18</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The tagging scheme of the signals has been reorganized: The <a href="http://wiki.openstreetmap.org/wiki/OpenRailwayMap/Tagging">general tagging scheme</a> has been freed from coutry-specific information in the range of signals, therefore pages for <a href="http://wiki.openstreetmap.org/wiki/OpenRailwayMap#Country-specific_tagging">country-specific tagging information</a> have been created. This is easier to understand and avoids mixing of international and country-specific tagging rules. Gradually, this division is to be implemented for the entire tagging scheme.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>English translation of the tagging scheme</title>
+			<description>More and more railway-interested mappers come from the non-German-speaking countries - it is time to translate the tagging scheme into English. But that requires help from the community.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000030.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>8</guid>
+			<pubDate>Sun, 13 Apr 2014 01:14:18</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Since there is also an increasing number of railway-interested mappers from the non-German-speaking countries, it is now overdue to translate the tagging scheme also into English.</p>
+					<p>As a copy of the German page, the <a href="http://wiki.openstreetmap.org/wiki/OpenRailwayMap/Tagging">English version</a> of the tagging scheme was created a few days ago.</p>
+					<p>For a single person the translation of this large site is not possible in the foreseeable future. Therefore, I would appreciate help with the translation. This does not only help other mappers, but also me - if I do not have to deal with the translation, I can focus my work on the technical development. The more people help, the faster the translation is completed.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>New translations and updates</title>
+			<description>The website is now also available in Danish, Polish, Russian and Spanish. There were also some updates of existing translations.</description>
+			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/c98a8fbc9caaf2519b68f7b993c4e31089ce52b8</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>7</guid>
+			<pubDate>Sun, 04 Apr 2014 21:43:15</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The website at <a href="http://www.openrailwaymap.org/">openrailwaymap.org</a> is now also available in Danish, Polish, Russian and Spanish.</p>
+					<p>There were also updates of the Czech, English, German, Greek, N'ko, Slovenian and Vietnamese translations, which added missing strings and corrected some errors.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Improved rendering of signals</title>
+			<description>The rendering of signal icons on the map has been improved. Now all signals are displayed, regardless of whether they overlap or not. This will ensure less irritation to the users.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-March/000020.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>6</guid>
+			<pubDate>Wed, 19 Mar 2014 22:29:37</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The rendering of signal icons on the map has been improved. Previously many signals were visible only at high zoom levels because they overlapped with neighboring icons. This phenomenon occurred especially in larger stations with a high density of data. This confused the users, because not every mapped signal was visible and the renderer decided randomly, which signals are displayed and which not.</p>
+					<p>This behavior has now been corrected, so that all mapped signals are drawn on the map. Some signals may overlap with neighboring signals, but it is now directly visible to the user, how complete the data.</p>
+					<p>In addition, some improvements have been made to avoid cutted icons at tile edges.</p>
+					<p>Note: The changes will be visible on the map only after an automatic rerendering of the tiles.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Rendering of line names</title>
+			<description>In addition to the line refs the map also shows line names now.</description>
+			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/b5d4731c5a1a336a5b2d45a694646a668670eb1a</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>5</guid>
+			<pubDate>Sat, 08 Mar 2014 20:49:14</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The rendering of line names tagged with name=* was added to the map style.</p>
+					<p>Note: The changes will be visible on the map only after an automatic rerendering of the tiles.</p>
+					<img src="http://www.matheisen.org/line-names.png" style="border: 1px solid black;" />
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Improved rendering of maxspeeds</title>
+			<description>The incorrect rendering order in maxspeed layer was repaired.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-February/000004.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>4</guid>
+			<pubDate>Tue, 04 Mar 2014 19:31:01</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>The rendering of the track speeds has been improved so that just the tagged maxspeed value influences the rendering order. That means that high-speed lines are rendered on the top of lowspeed lines if they collide with each other. Till now, the tags tunnel=*, bridge=* and layer=* were considered for the rendering order, which, however, caused unexpected rendering results because a high-speed line in a tunnel was covered by a lowspeed line despite their higher speed. Now these are ignored by the renderer in maxspeed layer.</p>
+					<p>Note: The changes will be visible on the map only after an automatic rerendering of the tiles.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Serverupgrade</title>
+			<description>The project has moved to a more powerful server.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-February/000006.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>3</guid>
+			<pubDate>Tue, 25 Feb 2014 13:57:31</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>We have successfully moved to a more powerful server. The growing amounts of data, the increasing number of website visitors and many new features required this.</p>
+					<p>The new server has the following hardware features:</p>
+					<ul>
+						<li>2x 240 GB SSD</li>
+						<li>16 GB RAM</li>
+						<li>1x Xeon Quadcore 2,4 GHz</li>
+					</ul>
+					<p>This means a significant performance increase over the previous server that had the following hardware features:</p>
+					<ul>
+						<li>1x 80 GB HDD</li>
+						<li>2 GB RAM</li>
+						<li>1x Dualcore CPU 2,4 GHz</li>
+					</ul>
+					<p>Thus, the map and the search function should feel a bit smoother now, but above all, the server is now relieved significantly. However, some fine tuning of the database is also necessary to take full advantage of the new hardware.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>Mailing list</title>
+			<description>An OpenRailwayMap mailing list has been set up.</description>
+			<link>http://lists.openrailwaymap.org/lists/listinfo/openrailwaymap</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>2</guid>
+			<pubDate>Sun, 23 Feb 2014 14:17:20</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>For all railway mappers, users and developers of OpenRailwayMap, a new <a href="http://lists.openrailwaymap.org/lists/listinfo/openrailwaymap">mailing list</a> is now available.</p>
+				]]>
+			</content:encoded>
+		</item>
+		<item>
+			<title>RSS-Feed available now</title>
+			<description>This is the official RSS feed of the OpenRailwayMap. You will find news about new features and the process of development soon.</description>
+			<link>http://www.openrailwaymap.org/</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://www.matheisen.org/en/index.htm#001</guid>
+			<pubDate>Sun, 28 Apr 2013 17:51:34</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>This is the official RSS feed of the OpenRailwayMap. You will find news about new features and the process of development soon.</p>
+				]]>
+			</content:encoded>
+		</item>
+	</channel>
+</rss>
