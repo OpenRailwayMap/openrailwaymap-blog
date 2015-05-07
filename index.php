@@ -16,7 +16,7 @@
 	<head>
 		<title>OpenRailwayMap Blog</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href="http://www.matheisen.org/style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="content-language" content="<? echo $lang; ?>" />
 		<meta name="keywords" content="openstreetmap, openrailwaymap, alexander matheisen, rurseekatze, openlayers, osm, matheisen, orm, eisenbahnkarte, bahnkarte, railmap, railway, railways, eisenbahn, streckenkarte" />
@@ -63,8 +63,8 @@
 						{
 							foreach($rss->channel->item as $item)
 							{
-								$output .= '<li class="rssEntry">';
 								$output .= '<a name="'.$item->guid.'" />';
+								$output .= '<li class="rssEntry">';
 								$output .= '<a class="rssTitle" href="'.$item->link.'">'.$item->title.'</a>';
 								$output .= '<span class="rssDate"> - '.date("d.m.Y",strtotime($item->pubDate)).'</span>';
 								$output .= '<br />';
