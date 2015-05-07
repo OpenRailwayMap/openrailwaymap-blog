@@ -31,17 +31,20 @@
 		<!-- Piwik -->
 		<script type="text/javascript">
 			var _paq = _paq || [];
-			_paq.push(["trackPageView"]);
-			_paq.push(["enableLinkTracking"]);
-
-			(function() {
-			var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.openlinkmap.org/";
-			_paq.push(["setTrackerUrl", u+"piwik.php"]);
-			_paq.push(["setSiteId", "2"]);
-			var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-			g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function()
+			{
+				var u="//piwik.openlinkmap.org/";
+				_paq.push(['setTrackerUrl', u+'piwik.php']);
+				_paq.push(['setSiteId', 6]);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
 			})();
 		</script>
+		<noscript>
+			<p><img src="//piwik.openlinkmap.org/piwik.php?idsite=6" style="border:0;" alt="" /></p>
+		</noscript>
 		<!-- End Piwik Code -->
 	</head>
 	<body>
