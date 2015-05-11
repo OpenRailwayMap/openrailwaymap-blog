@@ -18,7 +18,7 @@
 		</image>
 		<item>
 			<title>Hacken für die Katz – unsere Meinung zum #dbhackathon</title>
-			<description>TODO</description>
+			<description>Die Deutsche Bahn veranstaltet in letzter Zeit Hackathons, bei denen Entwickler Datensätze des Unternehmens nutzen dürfen, um innovative Anwendungen zu entwickeln. Am 8. und 9. Mai findet wieder ein Hackathon statt, diesmal mit dem Schwerpunkt Infrastruktur. Allerdings ist die Nutzung der Daten mit einigen Einschränkungen verbunden: Unter anderem dürfen die Daten nach dem Ende der Veranstaltung nicht mehr genutzt werden, sodass die entwickelten Anwendung weitgehend nutzlos werden. Somit verdient die Veranstaltung nicht den Titel Open-Data. Interessenten sollten vor der Teilnahme an solchen Veranstaltungen also genauer hinsehen.</description>
 			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-May/000262.html</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
