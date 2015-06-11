@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://www.matheisen.org/de/orm.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Fri, 08 May 2015 00:32:53 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 11 Jun 2015 22:30:08 +0200</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,23 @@
 			<title>OpenRailwayMap</title>
 			<link>http://www.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>OpenRailwayMap mit OsmAnd auf mobilen Geräten nutzen</title>
+			<description>Ab sofort lassen sich die Overlays der OpenRailwayMap auch in der für iOS und Android erhältlichen App OsmAnd nutzen. Momentan geht das nur mit funktionierender Internetverbindung. Für eine Offlinekarte sind noch einige Dinge zu tun, aber du kannst uns dabei helfen!</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-June/000278.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>26</guid>
+			<pubDate>Thu, 11 Jun 2015 22:30:08 +0200</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Die Nutzung der OpenRailwayMap auf mobilen Geräten ist jetzt noch komfortabler: Die für iOS und Android erhältliche App <a href="http://osmand.net/">OsmAnd</a> bietet nun eine integrierte Unterstützung für die OpenRailwayMap. Mit nur wenigen Handgriffen lassen sich die verschiedenen Layer der OpenRailwayMap als Overlays hinzufügen. Eine <a href="http://wiki.openstreetmap.org/wiki/DE:OpenRailwayMap/API#Einbindung_in_OsmAnd">Anleitung im OSM Wiki</a> erklärt, wie das geht.</p>
+					<p>Damit können nun Funktionen genutzt werden, die die <a href="http://m.openrailwaymap.org/">mobile Webseite</a> nicht bieten kann: Unter anderem das beliebige Ausrichten der Karte etwa in Fahrtrichtung oder die Anzeige der eigenen Position. Besonders interessant ist auch die beliebige Kombination mit weiteren Hintergrundkarten wie zum Beispiel Luftbildern. Eine Einschränkung gibt es allerdings: Die Overlays werden dynamisch geladen, was eine Internetverbindung voraussetzt. Eine Möglichkeit zur Offline-Nutzung wäre also wünschenswert, ist momentan allerdings noch nicht realisiert. Dies hat folgende Gründe:</p>
+					<p>Die Erzeugung von fertig herunterladbaren Offline-Karten benötigt weitere Serverressourcen und Bandbreite, die zur Zeit nicht zur Verfügung stehen. Daran wird sich auf absehbare Zeit erstmal nichts ändern, allerdings bietet das offene Datenmodell von OpenStreetMap die Möglichkeit, selbst Offlinekarten zu erzeugen. Die dazu <a href="http://wiki.openstreetmap.org/wiki/OsmAndMapCreator">notwendigen Schritte</a> sind im OSM-Wiki dokumentiert.</p>
+					<p>Derzeit besteht allerdings das Problem, dass ein entsprechender OpenRailwayMap-Kartenstil fehlt, um die Karte im gleichen Stil wie die OpenRailwayMap darzustellen. Leider müssen diese <a href="http://code.google.com/p/osmand/wiki/HowToPrepareYourOwnDataToUseOffline">Kartenstile eigens für OsmAnd</a> geschrieben werden, da die im MapCSS-Format existierenden Kartenstile der OpenRailwayMap nicht unterstützt werden. Das bedeutet eine Menge Arbeit, vor allem aber erfordert auch die kontinuierliche Synchronisation mit den MapCSS-Stylesheets einigen Arbeitsaufwand. Eine Alternative wäre die Entwicklung eines Tools, das die MapCSS-Styles in das OsmAnd-Format umwandeln kann. Das würde sehr viel manuelle Arbeit ersparen und auch sicherstellen, dass die Online- und Offline-Karten möglichst gleich aussehen. Für beide Aufgaben sind Unterstützer, denen die OpenRailwayMap auf Mobilgeräten besonders am Herzen liegt, gerne gesehen.</p>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Hacken für die Katz – unsere Meinung zum #dbhackathon</title>
 			<description>Die Deutsche Bahn veranstaltet in letzter Zeit Hackathons, bei denen Entwickler Datensätze des Unternehmens nutzen dürfen, um innovative Anwendungen zu entwickeln. Am 8. und 9. Mai findet wieder ein Hackathon statt, diesmal mit dem Schwerpunkt Infrastruktur. Allerdings ist die Nutzung der Daten mit einigen Einschränkungen verbunden: Unter anderem dürfen die Daten nach dem Ende der Veranstaltung nicht mehr genutzt werden, sodass die entwickelten Anwendung weitgehend nutzlos werden. Somit verdient die Veranstaltung nicht den Titel Open-Data. Interessenten sollten vor der Teilnahme an solchen Veranstaltungen also genauer hinsehen.</description>
