@@ -63,7 +63,8 @@
 						{
 							foreach($rss->channel->item as $item)
 							{
-								$output .= '<a name="'.$item->guid.'" />';
+								$guid = explode("#", $item->guid);
+								$output .= '<a name="'.$guid[1].'" />';
 								$output .= '<li class="rssEntry">';
 								$output .= '<a class="rssTitle" href="'.$item->link.'">'.$item->title.'</a>';
 								$output .= '<span class="rssDate"> - '.date("d.m.Y",strtotime($item->pubDate)).'</span>';
