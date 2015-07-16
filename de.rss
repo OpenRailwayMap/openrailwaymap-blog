@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://www.matheisen.org/de/orm.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Thu, 11 Jun 2015 22:30:08 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 16 Jul 2015 23:57:16 +0200</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,33 @@
 			<title>OpenRailwayMap</title>
 			<link>http://www.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Mappen mit dem Deutschlandpass</title>
+			<description>Alexander und Michael fahren in diesem Sommer mit dem Deutschlandpass quer durch Ostdeutschland, um Bahnstrecken zu mappen. Auf ihren Station suchen sie noch nach Übernachtungsmöglichkeiten.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-July/000304.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=de#27</guid>
+			<pubDate>Thu, 16 Jul 2015 23:57:16 +0200</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Auch dieses Jahr bietet die Deutsche Bahn wieder den <a href="https://www.bahn.de/micro/view/deutschlandpass/index.shtml">Deutschlandpass</a> an. Da Alexander (<a href="https://wiki.openstreetmap.org/wiki/User:Rurseekatze">rurseekatze</a>) und Michael (<a href="https://wiki.openstreetmap.org/wiki/User:Nakaner">Nakaner</a>) diesen Sommer die Zeit dazu haben, werden sie etwa ein bis zwei Wochen lang Ostdeutschland bereisen, um Eisenbahninfrastruktur zu mappen. Unsere Ziele: Bahnhöfen und Streckenabschnitte, wo 
+						<ul>
+							<li>seit 2012 ein ESTW (elektronisches Stellwerk mit neuen Signalen) in Betrieb ging</li>
+							<li>seit 2012 größere Um-/Ausbauten stattfanden</li>
+							<li>in den nächsten zwei Jahren ein ESTW in Betrieb gehen wird oder ein Umbau ansteht.</li>
+						</ul>
+					</p>
+					<p>Auf der französischen uMap-Instanz haben wir eine <a href="https://umap.openstreetmap.fr/de/map/reiseplane-deutschlandpass-2015_46757#8/52.019/12.645">Karte mit den Zielen und den Gründen</a> veröffentlicht.<p>
+					<p>Das Jahr 2012 ist als Grenze festgelegt, da die meisten Bing-Luftbilder in diesem Jahr oder später aufgenommen worden sind. Die Bing-Luftbilder eignen sich zum Mappen der Gleisanlagen. Derzeit läuft noch eine Zielsuche im Eisenbahnforum Drehscheibe-Online.</p>
+					<p>Die Reise wird zwischen dem 14. und 31. August stattfinden. Der genaue Zeitraum und Reiseweg ist noch nicht festgelegt.</p>
+					<p>Wenn neben dem Umbaumapping noch Zeit bleibt, möchten wir von diversen Nebenbahnen in der Gegend Signale und Höchstgeschwindigkeiten mappen (das wäre dann eine Neuerfassung und keine Aktualisierung).</p>
+					<p>Da wir wahrscheinlich nicht dazukommen werden, alles selbst in OSM einzutragen, werden wir die Videos (ggf. ohne Ton), Fotos, Notizen, GPS-Tracks und Wegpunkte veröffentlichen.</p>
+					<p>Da das Budget begrenzt ist, sind wir als Studenten auf Übernachtungsangeboten bei Privatleuten angewiesen, die uns (wir bringen Schlafsäcke + Isomatten mit) eine Nacht lang beherbergen möchten. Da wir während der Reise keine festen Termine haben, sind wir über jedes Angebot froh und werde die Reise anhand der angebotenen Übernachtungsmöglichkeiten ausrichten. Wir sind auch an Übernachtungsangeboten interessiert, die nicht direkt in der Nähe unserer Ziele liegen. Ein bis zwei Stunden Anreise von der Übernachtung zum Mappingort sind kein Problem, schließlich haben wir den Deutschlandpass und können so oft IC/EC/ICE fahren, wie wir wollen.</p>
+					<p>Im Voraus vielen Dank für alle Übernachtungsangebote.</p>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>OpenRailwayMap mit OsmAnd auf mobilen Geräten nutzen</title>
 			<description>Ab sofort lassen sich die Overlays der OpenRailwayMap auch in der für iOS und Android erhältlichen App OsmAnd nutzen. Momentan geht das nur mit funktionierender Internetverbindung. Für eine Offlinekarte sind noch einige Dinge zu tun, aber du kannst uns dabei helfen!</description>
