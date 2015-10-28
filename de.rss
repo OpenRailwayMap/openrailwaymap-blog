@@ -19,7 +19,7 @@
 		<item>
 			<title>Neuerungen im Signal- und Geschwindigkeitslayer</title>
 			<description>Auf dem OpenStreetMap-Hackweekend am 17. und 18. Oktober in Karlsruhe haben wir österreichische Haupt-, Vor- und Geschwindigkeitssignale, deutsche Zs 3(v) in Lichtsignalausführung sowie einige weitere Tafeln in die Karte eingebaut.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-October/000358.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#28</link>
 			<author>Alexander Matheisen;Michael Reichert</author>
 			<dc:creator>Alexander Matheisen;Michael Reichert</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#28</guid>
@@ -77,7 +77,7 @@
 		<item>
 			<title>Mappen mit dem Deutschlandpass</title>
 			<description>Alexander und Michael fahren in diesem Sommer mit dem Deutschlandpass quer durch Ostdeutschland, um Bahnstrecken zu mappen. Auf ihren Station suchen sie noch nach Übernachtungsmöglichkeiten.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-July/000304.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#27</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#27</guid>
@@ -104,7 +104,7 @@
 		<item>
 			<title>OpenRailwayMap mit OsmAnd auf mobilen Geräten nutzen</title>
 			<description>Ab sofort lassen sich die Overlays der OpenRailwayMap auch in der für iOS und Android erhältlichen App OsmAnd nutzen. Momentan geht das nur mit funktionierender Internetverbindung. Für eine Offlinekarte sind noch einige Dinge zu tun, aber du kannst uns dabei helfen!</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-June/000278.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#26</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#26</guid>
@@ -121,7 +121,7 @@
 		<item>
 			<title>Hacken für die Katz – unsere Meinung zum #dbhackathon</title>
 			<description>Die Deutsche Bahn veranstaltet in letzter Zeit Hackathons, bei denen Entwickler Datensätze des Unternehmens nutzen dürfen, um innovative Anwendungen zu entwickeln. Am 8. und 9. Mai findet wieder ein Hackathon statt, diesmal mit dem Schwerpunkt Infrastruktur. Allerdings ist die Nutzung der Daten mit einigen Einschränkungen verbunden: Unter anderem dürfen die Daten nach dem Ende der Veranstaltung nicht mehr genutzt werden, sodass die entwickelten Anwendung weitgehend nutzlos werden. Somit verdient die Veranstaltung nicht den Titel Open-Data. Interessenten sollten vor der Teilnahme an solchen Veranstaltungen also genauer hinsehen.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-May/000262.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#25</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#25</guid>
@@ -141,7 +141,7 @@
 		<item>
 			<title>Das Hackweekend in Karlsruhe und was sonst noch geschah</title>
 			<description>Auch wenn es in den letzten Monaten keine neuen Blogartikel zu lesen gab, ist die Entwicklung nicht stehen geblieben. Hier eine kurze Zusammenfassung der vielen kleinen Änderungen seit Mitte Januar.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-April/000251.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#24</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#24</guid>
@@ -163,7 +163,7 @@
 		<item>
 			<title>FOSSGIS-Hackweekened im Linuxhotel in Essen</title>
 			<description>Am vergangenen Wochenende fand in Essen das FOSSGIS-Hackweekend in den Räumlichkeiten des Linuxhotels statt. Die OpenRailwayMap war dort mit zwei Leuten vertreten, die unter anderem neue Signalsymbole und eine Taggingvorlage für Österreich erstellt haben.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-January/000188.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#23</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#23</guid>
@@ -185,7 +185,7 @@
 		<item>
 			<title>Darstellung von Hl-Signalen</title>
 			<description>Der Signallayer stellt ab sofort auch Kombinations- und Vorsignale des Hl-Systems der Deutschen Reichsbahn dar.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-December/000181.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#22</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#22</guid>
@@ -216,7 +216,7 @@
 		<item>
 			<title>Updateprobleme behoben</title>
 			<description>Nachdem es für einige Wochen nur unregelmäßige Aktualisierungen der Daten gab, funktioniert nun wieder alles reibungslos.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-December/000179.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#21</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#21</guid>
@@ -233,7 +233,7 @@
 		<item>
 			<title>OpenRailwayMap-Aktiventreffen in Bad Nauheim</title>
 			<description>Vom 24. bis 26. Oktober 2014 fand in Bad Nauheim das zweite OpenRailwayMap-Aktiventreffen statt, auf dem zahlreiche Taggingfragen diskutiert wurden.</description>
-			<link>https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014</link>
+			<link>http://blog.openrailwaymap.org?lang=de#20</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#20</guid>
@@ -262,7 +262,7 @@
 		<item>
 			<title>Hackweekend Karlsruhe</title>
 			<description>Auf dem Hackweekend der Geofabrik in Karlsruhe wurde fleißig am Signallayer geschraubt.</description>
-			<link>https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014</link>
+			<link>http://blog.openrailwaymap.org?lang=de#19</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#19</guid>
@@ -285,7 +285,7 @@
 		<item>
 			<title>Datenprüfung von Eisenbahndaten mit JOSM</title>
 			<description>Es gibt eine neue Vorlage für JOSM, mit der das Beheben von Taggingfehlern und damit eine Verbesserung der Datenqualität erleichtert wird.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-October/000134.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#18</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#18</guid>
@@ -301,7 +301,7 @@
 		<item>
 			<title>Deutsche Geschwindigkeitssignale weitgehend vollständig</title>
 			<description>Die Icons der deutschen Geschwindigkeitssignale sind nun weitgehend vollständig vorhanden. Vielerorts sind bereits etliche Signale eingetragen und auf der Karte sichtbar.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-July/000121.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#16</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#16</guid>
@@ -318,7 +318,7 @@
 		<item>
 			<title>Rückblick auf das OpenRailwayMap Mappingwochenende</title>
 			<description>Vom Freitag, den 11. bis Sonntag, den 13. Juli 2014 fand in Köln das erste OpenRailwayMap-Mappingwochenende (mit Taggingdiskussion) statt. Neben dem Kennenlernen und Austausch der Bahnmapper und der Erfassung zweier Bahnstrecken wurden vorallem diverse Diskussionen rund um das Taggingschema geführt. Hier ein Bericht dieser gelungenen Veranstaltung.</description>
-			<link>http://wiki.openstreetmap.org/wiki/DE:OpenRailwayMap/Mappingwochenende_2014_1</link>
+			<link>http://blog.openrailwaymap.org?lang=de#15</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#15</guid>
@@ -344,7 +344,7 @@
 		<item>
 			<title>Neue Übersetzungen und Aktualisierungen</title>
 			<description>Die Webseite ist nun auch in Französisch, Niederländisch, Portugiesisch, Schwedisch und Ukrainisch verfügbar. Außerdem wurden bereits vorhandene Übersetzungen aktualisiert.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-June/000097.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#14</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#14</guid>
@@ -359,7 +359,7 @@
 		<item>
 			<title>1. Mappingwochenende</title>
 			<description>Wir planen das erste OpenRailwayMap Mappingwochenende und suchen nach Interessenten.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-May/000041.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#13</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#13</guid>
@@ -376,7 +376,7 @@
 		<item>
 			<title>Verbesserte Darstellung der Streckengeschwindigkeiten</title>
 			<description>Es wurden Probleme bei der Darstellung von Streckengeschwindigkeiten in mph behoben.</description>
-			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/a0f2f88e75fbd3e330bf7ac5afc42a17d97ae66b</link>
+			<link>http://blog.openrailwaymap.org?lang=de#12</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#12</guid>
@@ -390,7 +390,7 @@
 		<item>
 			<title>OpenRailwayMap auf Twitter</title>
 			<description>Ab sofort ist die OpenRailwayMap auch auf Twitter zu finden.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-May/000035.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#11</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#11</guid>
@@ -404,7 +404,7 @@
 		<item>
 			<title>Mobile Webseite</title>
 			<description>Die Webseite der OpenRailwayMap wurde für mobile Geräte optimiert. Das vereinfacht die Nutzung auf mobilen Geräten von unterwegs.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000032.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#10</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#10</guid>
@@ -422,7 +422,7 @@
 		<item>
 			<title>Änderungen beim Taggingschema der Signale</title>
 			<description>Für eine klarere Trennung zwischen internationalen und länderspezifischen Definitionen wurden die Wikiseiten zum Tagging anders strukturiert.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000030.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#9</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#9</guid>
@@ -436,7 +436,7 @@
 		<item>
 			<title>Übersetzung des Taggingschemas</title>
 			<description>Immer mehr bahninteressierte Mapper kommen aus dem nicht-deutschsprachigen Raum - es wird Zeit, das Taggingschema ins Englische zu übersetzen. Dafür werden Unterstützer gesucht.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000030.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#8</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#8</guid>
@@ -452,7 +452,7 @@
 		<item>
 			<title>Neue Übersetzungen und Aktualisierungen</title>
 			<description>Die Webseite ist nun auch in Dänisch, Polnisch, Russisch und Spanisch verfügbar. Außerdem wurden bereits vorhandene Übersetzungen aktualisiert.</description>
-			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/c98a8fbc9caaf2519b68f7b993c4e31089ce52b8</link>
+			<link>http://blog.openrailwaymap.org?lang=de#7</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#7</guid>
@@ -467,7 +467,7 @@
 		<item>
 			<title>Verbesserte Darstellung der Signale</title>
 			<description>Die Anzeige der Signalsymbole auf der Karte wurde verbessert. Es werden nun alle Signale angezeigt, egal, ob sie sich überlappen oder nicht. Dies soll für weniger Irritationen bei den Benutzern sorgen.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-March/000020.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#6</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#6</guid>
@@ -484,7 +484,7 @@
 		<item>
 			<title>Rendering von Streckennamen</title>
 			<description>Auf der Karte werden zusätzlich zu den Streckennummern nun auch Streckennamen angezeigt.</description>
-			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/b5d4731c5a1a336a5b2d45a694646a668670eb1a</link>
+			<link>http://blog.openrailwaymap.org?lang=de#5</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#5</guid>
@@ -500,7 +500,7 @@
 		<item>
 			<title>Verbesserte Darstellung der Streckengeschwindigkeiten</title>
 			<description>Die teilweise fehlerhafte Zeichenreihenfolge der Streckengeschwindigkeiten wurden behoben.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-February/000004.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#4</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#4</guid>
@@ -515,7 +515,7 @@
 		<item>
 			<title>Serverupgrade</title>
 			<description>Das Projekt ist auf einen leistungsfähigeren Server umgezogen.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-February/000006.html</link>
+			<link>http://blog.openrailwaymap.org?lang=de#3</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#3</guid>
@@ -542,7 +542,7 @@
 		<item>
 			<title>Mailingliste</title>
 			<description>Es wurde eine OpenRailwayMap-Mailingliste eingerichtet.</description>
-			<link>http://lists.openrailwaymap.org/lists/listinfo/openrailwaymap</link>
+			<link>http://blog.openrailwaymap.org?lang=de#2</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#2</guid>
@@ -556,7 +556,7 @@
 		<item>
 			<title>RSS-Feed erstellt</title>
 			<description>Ab sofort gibt es den offiziellen RSS-Feed zur OpenRailwayMap. Hier wird in Zukunft über neue Features und den Entwicklungsprozess berichtet.</description>
-			<link>http://www.openrailwaymap.org/</link>
+			<link>http://blog.openrailwaymap.org?lang=de#1</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=de#1</guid>
