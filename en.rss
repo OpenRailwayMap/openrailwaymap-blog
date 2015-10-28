@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://www.matheisen.org/en/orm.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Thu, 11 Jun 2015 22:30:08 +0200</lastBuildDate>
+		<lastBuildDate>Wed, 28 Oct 2015 21:20:43 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,64 @@
 			<title>OpenRailwayMap</title>
 			<link>http://www.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Expanded visualization of Austrian and German signals</title>
+			<description> We added Austrian main, distant and speed signals, German light speed signals and some more German speed signs to the map during the OpenStreetMap Hack Weekend at 17. and 18. October in Karlsruhe, Germany.</description>
+			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-October/000358.html</link>
+			<author>Alexander Matheisen;Michael Reichert</author>
+			<dc:creator>Alexander Matheisen;Michael Reichert</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=en#28</guid>
+			<pubDate>Wed, 28 Oct 2015 21:20:43 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>For several day OpenRailwayMap visualizes a significant number of Austrian railway signals. Austrian signals are not completely new on the map. Austrian signals which look identical to their German equivalents, such as 'Trapeztafeln', have already been rendered on the map. Now we added light main and distant signals as the most important Austrian-specific signals.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=47.59840802037502&lon=13.77807855606079&zoom=15&style=signals"><img width="900" height="675" alt="" src="img/28-austrian-main-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>We also added various Austrian speed and distant speed signals to the map. Currently only signs up to 120 km/h are rendered; for light signals we need to create appropriate icons (SVG icons licensed under Public Domain or CC-0 are welcome). These signals are already mapped in some places such as Vienna. We hope that the visualization of this first selection of Austrian signals will encourage mappers to map more signals.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=48.22000143224693&lon=16.312095522880554&zoom=17&style=maxspeed"><img width="900" height="675" alt="" src="img/28-austrian-speed-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Auch die German light speed signals (Zs 3) and speed limit signals (Zs 3v) were added. Previously only the signs of those signals were displayed, not the light signal version. The icons shows the highest speed value that a signal can show, but at maximum 120 km/h. There may be some signals also displaying higher speed limits (e.g. 150 km/h), but there are currently no icons for these states. To avoid a messed up map in densely mapped stations, those signals are rendered in zoom level 1+ instead of 16+.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=48.99284791646639&lon=8.399667441844938&zoom=18&style=maxspeed"><img width="900" height="675" alt="" src="img/28-german-light-speed-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>There are also some new icons on German branch lines. We added the speed limit signs "Eckentafel" (Lf 5, only Eastern Germany), the white "Anfangstafel" (Lf 5, only Western Germany) and "Geschwindigkeitstafel" (Lf 4, only Western Germany).</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=49.28799080274328&lon=8.984220027923584&zoom=15&style=maxspeed"><img width="900" height="675" alt="" src="img/28-german-branch-speed-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>As another small new feature, minor signs Sh 0 and Sh 2 at buffer stops are now shown on the map.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=52.16028343506804&lon=9.952911883592606&zoom=19&style=signals"><img width="900" height="675" alt="" src="img/28-german-bufferstop-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-1">
+							<p>This work was done while the <a href="https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2015">OpenStreetMap Hack Weekend</a> at the office of <a href="http://www.geofabrik.de/">Geofabrik</a> in Karlsruhe, Germany on 17. and 18. October 2015. We also spent some more work on the redesign of the OpenRailwayMap website, which will offer a responsive design for a better experience on mobile devices. There is still a lot of work to do until the release of the new website. We thank Geofabrik for hosting this hack weekend.</p>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Use OpenRailwayMap on your mobile device with OsmAnd</title>
 			<description>Now you can use the OpenRailwayMap overlays in OsmAnd, a mobile app for Android and iOS devices. At the moment it requires an active internet connection. There is still a lot of work for generating offline maps, but you can help us!</description>
