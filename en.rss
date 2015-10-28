@@ -2,19 +2,19 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
 	<channel>
 		<title>OpenRailwayMap</title>
-		<link>http://www.openrailwaymap.org/</link>
+		<link>http://blog.openrailwaymap.org/</link>
 		<description>News about OpenRailwayMap</description>
 		<language>en</language>
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
-		<atom:link href="http://www.matheisen.org/en/orm.rss" rel="self" type="application/rss+xml"/>
+		<atom:link href="http://blog.openrailwaymap.org/en.rss" rel="self" type="application/rss+xml"/>
 		<lastBuildDate>Wed, 28 Oct 2015 21:20:43 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
 			<url>http://www.matheisen.org/rss.svg</url>
 			<title>OpenRailwayMap</title>
-			<link>http://www.openrailwaymap.org/</link>
+			<link>http://blog.openrailwaymap.org/</link>
 		</image>
 		<item>
 			<title>Expanded visualization of Austrian and German signals</title>
