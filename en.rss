@@ -19,7 +19,7 @@
 		<item>
 			<title>Expanded visualization of Austrian and German signals</title>
 			<description> We added Austrian main, distant and speed signals, German light speed signals and some more German speed signs to the map during the OpenStreetMap Hack Weekend at 17. and 18. October in Karlsruhe, Germany.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-October/000358.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#28</link>
 			<author>Alexander Matheisen;Michael Reichert</author>
 			<dc:creator>Alexander Matheisen;Michael Reichert</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#28</guid>
@@ -77,7 +77,7 @@
 		<item>
 			<title>Use OpenRailwayMap on your mobile device with OsmAnd</title>
 			<description>Now you can use the OpenRailwayMap overlays in OsmAnd, a mobile app for Android and iOS devices. At the moment it requires an active internet connection. There is still a lot of work for generating offline maps, but you can help us!</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-June/000278.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#26</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#26</guid>
@@ -94,7 +94,7 @@
 		<item>
 			<title>The Karlsruhe hack weekend and what else happend since January</title>
 			<description>Even if there was no new blog article in the last few months, the development has not stopped. Read a short summary of the small changes since January.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-April/000251.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#24</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#24</guid>
@@ -116,7 +116,7 @@
 		<item>
 			<title>FOSSGIS Hack Weekend at Linuxhotel in Essen</title>
 			<description>Last weekend, the FOSSGIS Hack Weekend took place at Linuxhotel in Essen, Germany. Two contributors of the OpenRailwayMap attended this event and created new signal icons, a tagging preset for Austria and much more.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2015-January/000188.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#23</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#23</guid>
@@ -136,7 +136,7 @@
 		<item>
 			<title>German Hl Signals</title>
 			<description>Hl signals are main and combined light signals used by 'Deutsche Reichsbahn' (predecessor of 'Deutsche Bahn' in the German Democratic Republic). OpenRailwayMap now renders them.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-December/000181.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#22</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#22</guid>
@@ -165,7 +165,7 @@
 		<item>
 			<title>Database update problems resolved</title>
 			<description>After it had been no or only irregular updates for the last several weeks, the data updates are now running properly again.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-December/000179.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#21</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#21</guid>
@@ -182,7 +182,7 @@
 		<item>
 			<title>OpenRailwayMap Meeting in Bad Nauheim, Germany</title>
 			<description>The second OpenRailwayMap Meeting took place in Bad Nauheim near Frankfurt (Main), Germany on 24 to 26 October 2014. It was a extension to the first "Mapping Weekend" in Cologne in July. Tagging discussions, which had been skipped due to a lack of time (or too much topics), and new tagging related questions and proposals were discussed now.</description>
-			<link>https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014</link>
+			<link>http://blog.openrailwaymap.org?lang=en#20</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#20</guid>
@@ -210,7 +210,7 @@
 		<item>
 			<title>Karlsruhe Hack Weekend</title>
 			<description>Auf dem Hackweekend der Geofabrik in Karlsruhe wurde fleißig am Signallayer geschraubt.</description>
-			<link>https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2014</link>
+			<link>http://blog.openrailwaymap.org?lang=en#19</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#19</guid>
@@ -231,7 +231,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Validation of railway data with JOSM</title>
 			<description>There is a new ruleset for JOSM which makes it easy to find and correct tagging issues of railroad data.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-October/000134.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#18</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#18</guid>
@@ -247,7 +247,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>German speed signals almost complete</title>
 			<description>The icons of german speed signals are now almost complete. In many places, there are already lots of mapped signals visible on the map.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-July/000121.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#16</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#16</guid>
@@ -264,7 +264,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Looking back at the OpenRailwayMap Mapping Weekend</title>
 			<description>The first OpenRailwayMap Mapping Weekend (with tagging discussion) took place in Cologne, Germany from 11 to 13 July 2014. Besides meeting other railway infrastructure mappers and mapping two railway lines, we discussed about extensions and changes of the railway tagging scheme. Here a report of this successful event.</description>
-			<link>http://wiki.openstreetmap.org/wiki/OpenRailwayMap/Mappingwochenende_2014_1</link>
+			<link>http://blog.openrailwaymap.org?lang=en#15</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#15</guid>
@@ -290,7 +290,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>New translations and updates</title>
 			<description>The website is now also available in Dutch, French, Portugese, Swedish and Ukrainian. There were also some updates of existing translations.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-June/000097.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#14</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#14</guid>
@@ -305,7 +305,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>First mapping event</title>
 			<description>We are planning the first OpenRailwayMap mapping weekend and looking for interested mappers.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-May/000041.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#13</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#13</guid>
@@ -322,7 +322,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Improved rendering of maxspeeds</title>
 			<description>Issues with the rendering of maxspeeds in mph have been resolved.</description>
-			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/a0f2f88e75fbd3e330bf7ac5afc42a17d97ae66b</link>
+			<link>http://blog.openrailwaymap.org?lang=en#12</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#12</guid>
@@ -336,7 +336,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>OpenRailwayMap on Twitter</title>
 			<description>OpenRailwayMap now has an official account on twitter.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-May/000035.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#11</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#11</guid>
@@ -350,7 +350,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Mobile website</title>
 			<description>The website of the OpenRailwayMap has been optimized for mobile devices. This makes it easier to use it on mobile devices.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000032.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#10</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#10</guid>
@@ -368,7 +368,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Restructered signal tagging scheme</title>
 			<description>For a clearer distinction between international and country-specific definitions, the tagging-related wiki pages have been restructured.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000030.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#9</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#9</guid>
@@ -382,7 +382,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>English translation of the tagging scheme</title>
 			<description>More and more railway-interested mappers come from the non-German-speaking countries - it is time to translate the tagging scheme into English. But that requires help from the community.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-April/000030.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#8</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#8</guid>
@@ -398,7 +398,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>New translations and updates</title>
 			<description>The website is now also available in Danish, Polish, Russian and Spanish. There were also some updates of existing translations.</description>
-			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/c98a8fbc9caaf2519b68f7b993c4e31089ce52b8</link>
+			<link>http://blog.openrailwaymap.org?lang=en#7</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#7</guid>
@@ -413,7 +413,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Improved rendering of signals</title>
 			<description>The rendering of signal icons on the map has been improved. Now all signals are displayed, regardless of whether they overlap or not. This will ensure less irritation to the users.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-March/000020.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#6</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#6</guid>
@@ -430,7 +430,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Rendering of line names</title>
 			<description>In addition to the line refs the map also shows line names now.</description>
-			<link>https://github.com/rurseekatze/OpenRailwayMap/commit/b5d4731c5a1a336a5b2d45a694646a668670eb1a</link>
+			<link>http://blog.openrailwaymap.org?lang=en#5</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#5</guid>
@@ -446,7 +446,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Improved rendering of maxspeeds</title>
 			<description>The incorrect rendering order in maxspeed layer was repaired.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-February/000004.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#4</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#4</guid>
@@ -461,7 +461,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Serverupgrade</title>
 			<description>The project has moved to a more powerful server.</description>
-			<link>http://lists.openrailwaymap.org/archives/openrailwaymap/2014-February/000006.html</link>
+			<link>http://blog.openrailwaymap.org?lang=en#3</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#3</guid>
@@ -488,7 +488,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>Mailing list</title>
 			<description>An OpenRailwayMap mailing list has been set up.</description>
-			<link>http://lists.openrailwaymap.org/lists/listinfo/openrailwaymap</link>
+			<link>http://blog.openrailwaymap.org?lang=en#2</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#2</guid>
@@ -502,7 +502,7 @@ under construction or disused in a brighter colour.</p>
 		<item>
 			<title>RSS-Feed available now</title>
 			<description>This is the official RSS feed of the OpenRailwayMap. You will find news about new features and the process of development soon.</description>
-			<link>http://www.openrailwaymap.org/</link>
+			<link>http://blog.openrailwaymap.org?lang=en#1</link>
 			<author>Alexander Matheisen</author>
 			<dc:creator>Alexander Matheisen</dc:creator>
 			<guid>http://blog.openrailwaymap.org?lang=en#1</guid>
