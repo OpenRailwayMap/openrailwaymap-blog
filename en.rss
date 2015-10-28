@@ -12,7 +12,7 @@
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
-			<url>http://www.matheisen.org/rss.svg</url>
+			<url>http://www.openrailwaymap.org/img/openrailwaymap-310.png</url>
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
