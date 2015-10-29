@@ -69,6 +69,7 @@
 					<div class="uk-grid">
 						<div class="uk-width-medium-1-1">
 							<p>This work was done while the <a href="https://wiki.openstreetmap.org/wiki/Karlsruhe_Hack_Weekend_October_2015">OpenStreetMap Hack Weekend</a> at the office of <a href="http://www.geofabrik.de/">Geofabrik</a> in Karlsruhe, Germany on 17. and 18. October 2015. We also spent some more work on the redesign of the OpenRailwayMap website, which will offer a responsive design for a better experience on mobile devices. There is still a lot of work to do until the release of the new website. We thank Geofabrik for hosting this hack weekend.</p>
+							<p>All images in this blog post contain OpenStreetMap data (<a href="http://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>) and are available under the terms of <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a> and OpenStreetMap.</p>
 						</div>
 					</div>
 				]]>
