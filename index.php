@@ -52,7 +52,7 @@
 		<div id="container">
 			<div id="titleframe" align="center">
         		<a href="#" id="title">OpenRailwayMap Blog</a>
-				<a href="http://blog.openrailwaymap.org/<? echo $lang; ?>.rss" target="_blank" type="application/rss+xml"><img src="http://www.matheisen.org/rss.svg" width="20px" /></a>
+				<a href="http://blog.openrailwaymap.org/<? echo $lang; ?>.rss" target="_blank" type="application/rss+xml"><img src="img/rss.svg" width="20px" /></a>
      	 	</div>
 		  	<div id="contentframe" align="left">
 				<?php
