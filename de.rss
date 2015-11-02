@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/de.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Wed, 28 Oct 2015 21:20:43 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 03 Nov 2015 13:00:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,39 @@
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Die Deutsche Bahn und Open-Data</title>
+			<description>Die Deutsche Bahn wird in Kürze ein Open-Data-Portal online stellen.</description>
+			<link>http://blog.openrailwaymap.org?lang=de#29</link>
+			<author>Alexander Matheisen;Michael Reichert</author>
+			<dc:creator>Alexander Matheisen;Michael Reichert</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=de#29</guid>
+			<pubDate>Tue, 03 Nov 2015 13:00:00 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<p>Die Deutsche Bahn macht Open-Data – Noch vor kurzer Zeit hätten das viele als Aprilscherz aufgefasst. Doch es hat sich etwas getan: Die Deutsche Bahn wird demnächst ein Open-Data-Portal starten.</p>
+
+					<p>Um eines vorweg klarzustellen: Wer jetzt eine große Anzahl veröffentlichter Datensätze erwartet hat, der wird enttäuscht sein. Es sollte aber bedacht werden, dass ein großer Konzern nicht von heute auf morgen den Hebel von &#8220;strenggeheim&#8221; auf &#8220;frei und offen&#8221; umlegen kann. Die DB muss erst selbst Erfahrungen mit offenen Daten machen, sowohl hinsichtlich technischer als auch lizenzrechtlicher Aspekte. Für den Anfang wird die DB kleine Häppchen veröffentlichen – die Liste der Betriebsstellen mit den Kürzeln nach Ril 100 sowie Informationen zu Aufzügen. Glücklicherweise wählt die DB dafür eine relativ offene und gebräuchliche Lizenz, die CC-BY.</p>
+
+					<p>Dieser Schritt wird im Blogpost der OKFN wie folgt <a href="http://okfn.de/blog/2015/10/die-bahn-kommt-auf-open-data/">kommentiert</a>: &#8220;Vorbei scheinen die Zeiten, in denen die Community nur über geschickte Hacks oder eigene Erfassung an Daten des größten deutschen Eisenbahnunternehmens kam und dabei auch noch Abmahnungen riskierte, wie vor drei Jahren bei OpenPlanB&#8221;. Dazu möchten wir anmerken, dass die <a href="http://www.db-vertrieb.com/db_vertrieb/view/service/open_plan_b.shtml">Reaktion der DB</a> auf die eigenmächtige Verbreitung von Fahrplandaten der Hafas-CD im JSON-Format im Jahr 2012 durch OpenPlanB relativ milde ausfiel. Dass die DB sich seither bezüglich Open-Data zurückgehalten hat, verwundert nach dieser Aktion nicht. Die Veröffentlichung der Konvertierungs-Software allein (was OpenPlanB auch getan hat), wäre nicht so eindrucksvoll, aber legal gewesen.</p>
+
+					<p>Als OpenStreetMap-Aktive verfolgen wir einen anderen, legalen Ansatz, um Behörden und Unternehmen in Richtung Open-Data zu lenken – das Crowdsouring. Wir wollen im Bahnbereich noch einmal erreichen, was OSM schon für Geobasisdaten erreicht hat.
+Dort haben ursprüngliche Monopolisten/Oligopolisten, nämlich Vermessungsämter, Here, TomTom &amp; Co. nicht mehr die alleinige Hoheit über die Geodaten. Die Open-Data-Skepsis und überteuerte Gebühren der Vermessungsverwaltungen und ihrer Aufsichtsbehörden haben uns in Deutschland sogar geholfen. Man wollte und will die Einnahmen nicht aufgeben und hat die preis- und qualitätsbewussten Nutzer der OSM-Community überlassen. Die anfangs weiße OSM-Landkarte hat die Mapper förmlich angezogen und heute haben oft die Staaten, die in Sachen Open-Data nicht so fortschrittlich waren/sind, die aktiveren und größeren Communitys.</p>
+
+					<p>Dasselbe geschieht in Deutschland gerade im Bahnbereich noch einmal. Da sich die DB bei Open-Data bislang zurückgehalten hat, haben eine Handvoll Freiwillige vor drei Jahren begonnen, selbst die deutsche Eisenbahninfrastruktur noch einmal neu zu erfassen.</p>
+
+					<p>Ein Interesse an diesen Daten besteht auch. Wenn man die Aufrufe der OpenRailwayMap seit Januar 2015 nach Providern sortiert, aus deren Netzen sie stammen, nimmt der DB-Konzern mit etwa 10% der Aufrufe den fünften Platz ein, vor ihm liegen nur Telekom-, Vodafone, Kabel-Deutschland- und Telefonica-Kunden. Gespräche mit DB-Mitarbeitern bestätigen das. In manchen Abteilungen scheint die Nutzung der OpenRailwayMap stark verbreitet zu sein. Sie bietet mit einer Kartendarstellung, die die DB ihren Mitarbeitern nicht anbietet, einen Überblick. Dazu kommt noch die gegenüber manchen DB-eigenen Geodatenanwendungen deutlich modernere Benutzeroberfläche (dort sehen die GUIs teilweise noch wie vor zehn bis fünfzehn Jahren aus).</p>
+
+					<p>Nachdem in den vergangenen Jahren unsere Anfragen bezüglich einer Datenfreigabe bzw. Datennutzungserlaubnis von der DB ablehnend oder gar nicht beantwortet wurden, freut es uns um so mehr, dass die DB mittlerweile auf die OpenRailwayMap-Community zugeht und nach Möglichkeiten einer Kooperation sucht.</p>
+
+					<p>Open-Data nützt nicht nur der Allgemeinheit, sondern vor allem dem DB-Konzern selbst. Ohne eigenen Nutzen wäre die freiwillige Veröffentlichung von Daten nämlich kaufmännisch nicht zu vertreten. Bei der DB ist es derzeit üblich, dass die eine Konzerntochter der anderen Gebühren für die Nutzung von Geodaten zahlt – oder gleich OSM verwendet, weil das die unbürokratischere Lösung darstellt. Mit Open-Data wird die Datennutzung innerhalb des Konzerns vereinfacht und der Kreativität sind weniger Schranken gesetzt.</p>
+
+					<p>Wer also mehr offene Daten schaffen will, sollte nicht nur Forderungen stellen, sondern selbst aktiv werden und mit einem eigenen Crowdsourcing-Projekt die Daten erfassen. Statt um Datensätze zur Pünktlichkeit und offiziellen Zugriff auf Zugradar und RIS (Reisenden-Informationssystem) zu bitten, könnte man z.B. auch per Crowdsourcing die aktuellen Standorte von Zügen erfassen. Die resultierenden Daten wären dann unabhängig und frei. Bekannte <a href="http://www.ice-treff.de/index.php?mode=thread&amp;id=230421#p230421">technische</a> <a href="http://www.ice-treff.de/index.php?mode=thread&amp;id=293874">Unzulänglichkeiten</a> der DB-Systeme könnte man damit auch umgehen. Und wenn dann nach einiger Zeit eine brauchbare Datenbasis zusammengekommen ist (man wird nicht alle Züge damit erfassen können, da in Deutschland manche Züge auch fast leer durch die Gegend fahren), kommen die Anwendungen und die Aufmerksamkeit aus Fachkreisen (Bahnfans, Bahnangestellte usw.) wahrscheinlich von alleine. Mit eigenen Daten schafft man Unabhängigkeit. Wer keine hat, macht sich von Unternehmen und Behörden abhängig.</p>
+
+					<p>An einer Stelle müssen wir das Posting von Stefan Kaufmann und Walter Palmetshofer korrigieren. In ihrem Blogpost schreiben sie, dass &#8220;die Zeiten […] der eigene Erfassung&#8221; vorbei seien. Das ist unabhängig vom Umfang des Open-Data-Angebot der DB leider nicht korrekt. Die DB ist schließlich zwar der bedeutenste Infrastrukturbetreiber in Deutschland, jedoch nicht der einzige. Neben der DB gibt es noch eine Reihe nicht-bundeseigener Eisenbahn-Infrastrukturunternehmen, die heutzutage ca. 18 % des deutschen Eisenbahnnetzes betreiben. Ohne Wertung seien hier <a href="https://de.wikipedia.org/wiki/Regiobahn_GmbH">Regiobahn</a>, AVG, <a href="https://de.wikipedia.org/wiki/S%C3%BCdwestdeutsche_Verkehrs-Aktiengesellschaft">SWEG</a> und <a href="https://de.wikipedia.org/wiki/Deutsche_Regionaleisenbahn">DRE</a> genannt. Von den Daten ausländischer Bahnen ganz zu schweigen. Doch selbst wenn sämtliche Bahnunternehmen Daten freigeben würden, wäre die OpenRailwayMap bzw. die Erfassung von Eisenbahndaten in OpenStreetMap keineswegs überflüssig. OpenStreetMap bzw. OpenRailwayMap übernehmen die Funktion einer Datenbank, in der Daten aus verschiedenen Quellen gesammelt, in einem einheitlichen Format vorgehalten werden und durch Freiwillige gepflegt und angereichert werden. Unser Anspruch ist es, eine eigene Datenbasis zu schaffen. Das OpenStreetMap-Projekt hat schließlich bewiesen, dass eine eigene Datenbasis detaillierter und aktueller sein kann als jegliche existierende Quellen.</p>
+					]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Neuerungen im Signal- und Geschwindigkeitslayer</title>
 			<description>Auf dem OpenStreetMap-Hackweekend am 17. und 18. Oktober in Karlsruhe haben wir österreichische Haupt-, Vor- und Geschwindigkeitssignale, deutsche Zs 3(v) in Lichtsignalausführung sowie einige weitere Tafeln in die Karte eingebaut.</description>
