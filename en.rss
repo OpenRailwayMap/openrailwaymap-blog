@@ -25,7 +25,7 @@
 			<guid>http://blog.openrailwaymap.org?lang=de#29</guid>
 			<pubDate>Tue, 03 Nov 2015 13:00:00 +0100</pubDate>
 			<content:encoded>
-			<![CDATA[
+				<![CDATA[
 					<p>&#8220;Deutsche Bahn (Germany&#8217;s national railway company) opens its datasets.&#8221; A joke? No, such times seem to be past now. DB will launch its own open data portal soon.</p>
 
 					<p>If you expect DB to publish hundreds of datasets, you might be disappointed. But please note that such a large corporation cannot turn from &#8220;secret&#8221; to &#8220;open and free&#8221; within a few months. DB itself has to gain experience with open data, especially licensing and technical matters.
@@ -55,7 +55,7 @@
 
 					<p>There is one mistake in Stefan&#8217;s and Walter&#8217;s posting. They write that the &#8220;times of crowdsourced data collection [as a replacement for missing open data]&#8221; are over now. Unfortunately, that&#8217;s still wrong. DB is Germany&#8217;s most important railway infrastructure operator but there are other companies which operate the other 18 % of Germany&#8217;s railway infrastructure. To call some examples without any judgement: <a href="https://en.wikipedia.org/wiki/Regiobahn_GmbH">Regiobahn</a>, <a href="https://en.wikipedia.org/wiki/Albtal-Verkehrs-Gesellschaft">AVG</a>, <a href="https://en.wikipedia.org/wiki/S%C3%BCdwestdeutsche_Verkehrs-Aktiengesellschaft">SWEG</a> and Deutsche 
 					Regionaleisenbahn, not to mention all the railway infrastructure operators outside Germany. Even if all railway infrastructure operators would publish all their data, OpenRailwayMap and the railway data at OpenStreetMap will not become redundant. We serve the function to collect, improve and maintain railway data. Our aim is to create an independent data source. The OpenStreetMap project has proofed that a separate dataset can be accurate and more up to date than other datasets.</p>
-					]]>
+				]]>
 			</content:encoded>
 		</item>
 		<item>
