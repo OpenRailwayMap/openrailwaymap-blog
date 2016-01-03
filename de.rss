@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/de.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Tue, 03 Nov 2015 13:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 03 Jan 2016 01:57:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,36 @@
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Weitere Signale in Österreich</title>
+			<description>Im Signallayer werden jetzt auch österreichische Haupt- und Vorsignale in Formsignalausführung und Geschwindigkeits(vor)anzeiger in Lichtsignalausführung dargestellt.</description>
+			<link>http://blog.openrailwaymap.org?lang=de#30</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=de#30</guid>
+			<pubDate>Sun, 03 Jan 2016 01:57:00 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Einige Mapper mögen die im folgenden dargestellten Änderungen schon selbst entdeckt haben. Trotzdem gibt es hier nochmal eine ganz offizielle Vorstellung der Neuerungen bei den österreichischen Signalen: Nachdem Mitte Oktober erstmals eine nennenswerte Anzahl an österreichischen Signalen angezeigt wurde, folgten unserem Aufruf hier im Blog erfreulicherweise einige Nutzer und haben weitere Icons beigesteuert. Vielen Dank dafür!</p>
+							<p>Nachdem Haupt- und Vorsignale in Lichtsignalausführung schon angezeigt wurden, kamen nun auch die entsprechenden Formsignale hinzu.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=48.10104047624392&lon=13.16235065460205&zoom=14&style=signals"><img width="900" height="675" alt="" src="img/30-austrian-semaphore-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Bei den Geschwindigkeits(vor)anzeigern wird nun auch die Lichtsignalausführung auf der Karte dargestellt.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=48.19679271018849&lon=16.264201998710632&zoom=17&style=maxspeed"><img width="900" height="675" alt="" src="img/30-austrian-speed-signals.png"></img></a>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Die Deutsche Bahn und Open-Data</title>
 			<description>Die Deutsche Bahn wird in Kürze ein Open-Data-Portal online stellen.</description>

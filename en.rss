@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/en.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Tue, 03 Nov 2015 13:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 03 Jan 2016 01:57:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,36 @@
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Some more Austrian signals</title>
+			<description>The signalling layer now also renders Austrian main and distant semaphore signals and the light signal version of speed signals.</description>
+			<link>http://blog.openrailwaymap.org?lang=en#30</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=en#30</guid>
+			<pubDate>Sun, 03 Jan 2016 01:57:00 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Some mapper may have already noticed the following changes. Anyway, here is an "official" presentation of the changes concerning Austrian signals: After a significant number of Austrian railway signals was rendered since mid october, some users followed our appeal and contributed some more signal icons. Many thanks!</p>
+							<p>Austrian main and distant signals in form of light signals were already rendered, but now the map also visualizes the semaphore equivalents of these signals.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=48.10104047624392&lon=13.16235065460205&zoom=14&style=signals"><img width="900" height="675" alt="" src="img/30-austrian-semaphore-signals.png"></img></a>
+						</div>
+					</div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>And the map now also shows the light version of Austrian (distant) speed limit signals.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=48.19679271018849&lon=16.264201998710632&zoom=17&style=maxspeed"><img width="900" height="675" alt="" src="img/30-austrian-speed-signals.png"></img></a>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Deutsche Bahn and Open-Data</title>
 			<description>Deutsche Bahn, Germany's national railway company, will publish first open data datasets in a few days.</description>
