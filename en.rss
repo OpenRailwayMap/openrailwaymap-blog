@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/en.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Sun, 03 Jan 2016 01:57:00 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 16 Feb 2016 22:59:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,27 @@
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Train protection systems</title>
+			<description>Train protection systems of Germany and Austria are now rendered in signalling layer.</description>
+			<link>http://blog.openrailwaymap.org?lang=en#31</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=en#31</guid>
+			<pubDate>Tue, 16 Feb 2016 22:59:00 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Train protection systems are now rendered in signalling layer. For the beginning, the three most important systems used in Germany and Austria are visualized: The intermittent train protection system <a href="https://en.wikipedia.org/wiki/Punktf%C3%B6rmige_Zugbeeinflussung">"Punkförmige Zugbeeinflussung (PZB)"</a> in orange, the continuous system <a href="https://en.wikipedia.org/wiki/Linienzugbeeinflussung">"Linienzugbeeinflussung (LZB)"</a> in red and the <a href="https://en.wikipedia.org/wiki/European_Train_Control_System">European Train Control System (ETCS)</a> in blue. Railroad tracks without train protection are rendered in black while those without any information are rendered as grey lines. Train protection systems of other countries will be added in future.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.openrailwaymap.org/?lat=51.3194554047498&lon=12.190704345703125&zoom=9&style=signals"><img width="900" height="675" alt="" src="img/31-train-protection-systems.png"></img></a>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Some more Austrian signals</title>
 			<description>The signalling layer now also renders Austrian main and distant semaphore signals and the light signal version of speed signals.</description>
