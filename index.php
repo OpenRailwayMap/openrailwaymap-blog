@@ -35,7 +35,7 @@
 			_paq.push(['enableLinkTracking']);
 			(function()
 			{
-				var u="//piwik.openlinkmap.org/";
+				var u="//piwik.openrailwaymap.org/";
 				_paq.push(['setTrackerUrl', u+'piwik.php']);
 				_paq.push(['setSiteId', 6]);
 				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
