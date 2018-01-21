@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/en.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Tue, 16 Feb 2016 22:59:00 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 21 Jan 2018 13:30:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -531,7 +531,7 @@ under construction or disused in a brighter colour.</p>
 				<![CDATA[
 					<p>The rendering of line names tagged with name=* was added to the map style.</p>
 					<p>Note: The changes will be visible on the map only after an automatic rerendering of the tiles.</p>
-					<img src="http://www.matheisen.org/line-names.png" style="border: 1px solid black;" />
+					<img src="img/5-line-names.png" style="border: 1px solid black;" />
 				]]>
 			</content:encoded>
 		</item>
