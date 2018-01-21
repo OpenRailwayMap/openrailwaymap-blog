@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/de.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Sun, 21 Jan 2018 13:30:00 +0100</lastBuildDate>
+		<lastBuildDate>Sun, 21 Jan 2018 20:01:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,25 @@
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Unterstützung für HTTPS</title>
+			<description>Die OpenRailwayMap ist jetzt auch über HTTPS erreichbar.</description>
+			<link>http://blog.openrailwaymap.org?lang=de#32</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=de#32</guid>
+			<pubDate>Sun, 21 Jan 2018 20:01:00 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Seit heute ist es möglich, <a href="https://www.openrailwaymap.org/">Webseite</a>, <a href="https://tiles.openrailwaymap.org/">Tiles</a>, <a href="https://api.openrailwaymap.org/">API</a> und <a href="https://lists.openrailwaymap.org/">Mailingliste</a> über HTTPS zu erreichen.</p>
+							<p>User, die in einer per HTTPS ausgelieferten Webseite bereits Tiles einbinden oder API-Anfragen stellen, bekommen nun keine <a href="https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content">Mixed-Content-Fehler</a> mehr. Und für User, die von diesem Fehler bislang davon abgehalten wurden, Inhalte der OpenRailwayMap in ihre Webseite einzubinden, gibt es nun keinen Grund mehr, dies nicht zu tun.</p>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Zugsicherungssysteme</title>
 			<description>Im Signallayer werden jetzt auch Zugsicherungssysteme in Deutschland und Österreich dargestellt.</description>
