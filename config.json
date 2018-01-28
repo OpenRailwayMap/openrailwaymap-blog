@@ -1,0 +1,500 @@
+[
+  {
+    "id": "https-support",
+    "languages": {
+      "de": {
+        "authors": "Alexander Matheisen",
+        "destination_path": "unterstuetzung-fuer-https",
+        "subtitle": "",
+        "title": "Unterstützung für HTTPS"
+      },
+      "en": {
+        "authors": "Alexander Matheisen",
+        "destination_path": "enabling-https",
+        "subtitle": "",
+        "title": "Enabling HTTPS"
+      }
+    }
+  },
+  {
+    "id": "karlsruhe-january",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "das-hackweekend-in-karlsruhe-was-sonst-noch-geschah",
+        "subtitle": "",
+        "title": "Das Hackweekend in Karlsruhe und was sonst noch geschah"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "karlsruhe-hack-weekend-else-happened",
+        "subtitle": "",
+        "title": "The Karlsruhe hack weekend and what else happend since January"
+      }
+    }
+  },
+  {
+    "id": "mailing-liste",
+    "languages": {
+      "de": {
+        "authors": "rurseekatze",
+        "destination_path": "mailingliste",
+        "subtitle": "",
+        "title": "Mailingliste"
+      },
+      "en": {
+        "authors": "rurseekatze",
+        "destination_path": "mailing-list",
+        "subtitle": "",
+        "title": "Mailing list"
+      }
+    }
+  },
+  {
+    "id": "server-upgrade",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "serverupgrade",
+        "subtitle": "",
+        "title": "Serverupgrade"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "serverupgrade",
+        "subtitle": "",
+        "title": "Server upgrade"
+      }
+    }
+  },
+  {
+    "id": "database-problems-resolved",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "updateprobleme-behoben",
+        "subtitle": "",
+        "title": "Updateprobleme behoben"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "database-update-problems-resolved",
+        "subtitle": "",
+        "title": "Database update problems resolved"
+      }
+    }
+  },
+  {
+    "id": "rendering-line-name",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "rendering-von-streckennamen",
+        "subtitle": "",
+        "title": "Rendering von Streckennamen"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "rendering-line-names",
+        "subtitle": "",
+        "title": "Rendering of line names"
+      }
+    }
+  },
+  {
+    "id": "validation-josm",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "datenpruefung-von-eisenbahndaten-mit-josm",
+        "subtitle": "",
+        "title": "Datenprüfung von Eisenbahndaten mit JOSM"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "validation-of-railway-data-with-JOSM",
+        "subtitle": "",
+        "title": "Validation of railway data with JOSM"
+      }
+    }
+  },
+  {
+    "id": "osmand",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "openrailwaymap-mit-osmand-nutzen",
+        "subtitle": "",
+        "title": "OpenRailwayMap mit OsmAnd auf mobilen Geräten nutzen"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "openrailwaymap-with-osmand",
+        "subtitle": "",
+        "title": "Use OpenRailwayMap on your mobile device with OsmAnd"
+      }
+    }
+  },
+  {
+    "id": "expanded-visualisation",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "neuerungen-im-signal-und-geschwindigkeitslayer",
+        "subtitle": "",
+        "title": "Neuerungen im Signal- und Geschwindigkeitslayer"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "expanded-visualization-of-austrian-and-german-signals",
+        "subtitle": "",
+        "title": "Expanded visualization of Austrian and German signals"
+      }
+    }
+  },
+  {
+    "id": "new-translations",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "neue-uerbesetzungen-und-aktualisierungen",
+        "subtitle": "",
+        "title": "Neue Übersetzungen und Aktualisierungen"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "new-translations-and-updates",
+        "subtitle": "",
+        "title": "New translations and updates"
+      }
+    }
+  },
+  {
+    "id": "orm-mapping-weekend",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "rueckblick-auf-das-openrailwaymap-mappingwochenende",
+        "subtitle": "",
+        "title": "Rückblick auf das OpenRailwayMap-Mappingwochenende"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "looking-back-at-the-openrailwaymap-mapping-weekend",
+        "subtitle": "",
+        "title": "Looking back at the OpenRailwayMap Mapping Weekend"
+      }
+    }
+  },
+  {
+    "id": "orm-on-twitter",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "openrailwaymap-auf-twitter",
+        "subtitle": "",
+        "title": "OpenRailwayMap auf Twitter"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "orm-on-twitter",
+        "subtitle": "",
+        "title": "OpenRailwayMap on Twitter"
+      }
+    }
+  },
+  {
+    "id": "improved-speed-rendering",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "verbesserte-darstellung-der-streckengeschwindigkeiten",
+        "subtitle": "",
+        "title": "Verbesserte Darstellung der Streckengeschwindigkeiten"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "improved-speed-rendering",
+        "subtitle": "",
+        "title": "Improved rendering of maxspeeds"
+      }
+    }
+  },
+  {
+    "id": "some-more-austrian-signals",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "weitere-signale-in-oesterreich",
+        "subtitle": "",
+        "title": "Weitere Signale in Österreich"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "some-more-austrian-signals",
+        "subtitle": "",
+        "title": "Some more Austrian signals"
+      }
+    }
+  },
+  {
+    "id": "mobile-website",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "mobile-website",
+        "subtitle": "",
+        "title": "Mobile Website"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "mobile-website",
+        "subtitle": "",
+        "title": "Mobile website"
+      }
+    }
+  },
+  {
+    "id": "fossgis-essen",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "fossgis-hackweekend-im-linuxhotel-in-essen",
+        "subtitle": "",
+        "title": "FOSSGIS-Hackweekend im Linuxhotel in Essen"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "fossgis-hack-weekend-at-linuxhotel-in-essen",
+        "subtitle": "",
+        "title": "FOSSGIS Hack Weekend at Linuxhotel in Essen"
+      }
+    }
+  },
+  {
+    "id": "bad-nauheim",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "openrailwaymap-aktiventreffen-in-bad-nauheim",
+        "subtitle": "",
+        "title": "OpenRailwayMap-Aktiventreffen in Bad Nauheim"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "openrailwaymap-meeting-in-bad-nauheim",
+        "subtitle": "",
+        "title": "OpenRailwayMap Meeting in Bad Nauheim"
+      }
+    }
+  },
+  {
+    "id": "tagging-translated",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "uebersetzung-des-taggingschemas",
+        "subtitle": "",
+        "title": "Übersetzung des Taggingschemas"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "english-translation-of-the-tagging-scheme",
+        "subtitle": "",
+        "title": "Englische Übersetzung des Taggingschemas"
+      }
+    }
+  },
+  {
+    "id": "tagging-changes",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "aenderung-taggingschema-signale",
+        "subtitle": "",
+        "title": "Änderungen beim Taggingschema der Signale"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "restructured-signal-tagging-scheme",
+        "subtitle": "",
+        "title": "Restructured signal tagging scheme"
+      }
+    }
+  },
+  {
+    "id": "karlsruhe-hw",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "hackweekend-karlsruhe",
+        "subtitle": "",
+        "title": "Hackweekend Karlsruhe"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "karlsruhe-hack-weekend",
+        "subtitle": "",
+        "title": "Karlsruhe Hack Weekend"
+      }
+    }
+  },
+  {
+    "id": "german-speed-signals-complete",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "deutsche-geschwindigkeitssignale-weitgehend-vollstaendig",
+        "subtitle": "",
+        "title": "Deutsche Geschwindigkeitssignale weitgehend vollständig"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "german-speed-signals-almost-complete",
+        "subtitle": "",
+        "title": "German speed signals almost complete"
+      }
+    }
+  },
+  {
+    "id": "zugsicherungssysteme",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "zugsicherungssysteme",
+        "subtitle": "",
+        "title": "Zugsicherungssysteme"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "train-protection-systems",
+        "subtitle": "",
+        "title": "Train protection systems"
+      }
+    }
+  },
+  {
+    "id": "hl-signals",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "darstellung-von-hl-signalen",
+        "subtitle": "",
+        "title": "Darstellung von Hl-Signalen"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "german-hl-signals",
+        "subtitle": "",
+        "title": "German Hl Signals"
+      }
+    }
+  },
+  {
+    "id": "first-mapping-event",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "erstes-mappingwochenende",
+        "subtitle": "",
+        "title": "Erstes Mappingwochenende"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "first-mapping-event",
+        "subtitle": "",
+        "title": "First mapping event"
+      }
+    }
+  },
+  {
+    "id": "deutsche-bahn-and-open-data",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "deutsche-bahn-and-open-data",
+        "subtitle": "",
+        "title": "Deutsche Bahn and Open Data"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "deutsche-bahn-and-open-data",
+        "subtitle": "",
+        "title": "Deutsche Bahn and open data"
+      }
+    }
+  },
+  {
+    "id": "rss-feed-available",
+    "languages": {
+      "de": {
+        "authors": "rurseekatez",
+        "destination_path": "rss-feed-erstellt",
+        "subtitle": "",
+        "title": "RSS-Feed erstellt"
+      },
+      "en": {
+        "authors": "rurseekatze",
+        "destination_path": "rss-feed-available-now",
+        "subtitle": "",
+        "title": "RSS-Feed available now"
+      }
+    }
+  },
+  {
+    "id": "improved-rendering-maxpspeeds",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "verbesserte-darstellung-der-streckengeschwindigkeiten",
+        "subtitle": "",
+        "title": "Verbesserte Darstellung der Streckengeschwindigkeiten"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "improved-rendering-of-maxspeeds",
+        "subtitle": "",
+        "title": "Improved rendering of maxspeeds"
+      }
+    }
+  },
+  {
+    "id": "improved-signal-rendering",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "verbesserte-darstellung-der-signale",
+        "subtitle": "",
+        "title": "Verbesserte Darstellung der Signale"
+      },
+      "en": {
+        "authors": "",
+        "destination_path": "improved-rendering-of-signals",
+        "subtitle": "",
+        "title": "Improved rendering of signals"
+      }
+    }
+  },
+  {
+    "id": "deutschlandpass",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "mappen-mit-dem-deutschlandpass",
+        "subtitle": "",
+        "title": "Mappen mit dem Deutschlandpass"
+      }
+    }
+  },
+  {
+    "id": "hacken-fuer-die-katz",
+    "languages": {
+      "de": {
+        "authors": "",
+        "destination_path": "hacken-fuer-die-katz",
+        "subtitle": "",
+        "title": "Hacken für die Katz – unsere Meinung zum #dbhackathon"
+      }
+    }
+  }
+]

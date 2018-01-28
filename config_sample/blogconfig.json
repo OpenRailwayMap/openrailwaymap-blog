@@ -1,0 +1,59 @@
+[
+  {
+    "id": "fi-signals2",
+    "languages":
+    { "de":
+      {
+        "title": "Neue Signale2",
+        "subtitle": "Neues auf der Karte in Finnland",
+        "authors": "Nakaner",
+        "destination_path": "neue-signale-in-finnland2"
+      },
+      "en":
+      {
+        "title": "New Signals2",
+        "subtitle": "New objects on the map in Finnland",
+        "authors": "Nakaner",
+        "destination_path": "new-signals-in-finnland2"
+      }
+    }
+  },
+  {
+    "id": "fi-signals1",
+    "languages":
+    { "de":
+      {
+        "title": "Neue Signale1",
+        "subtitle": "Neues auf der Karte in Finnland",
+        "authors": "Nakaner",
+        "destination_path": "neue-signale-in-finnland1"
+      },
+      "en":
+      {
+        "title": "New Signals1",
+        "subtitle": "New objects on the map in Finnland",
+        "authors": "Nakaner",
+        "destination_path": "new-signals-in-finnland1"
+      }
+    }
+  },
+  {
+    "id": "fi-signals0",
+    "languages":
+    { "de":
+      {
+        "title": "Neue Signale0",
+        "subtitle": "Neues auf der Karte in Finnland",
+        "authors": "Nakaner",
+        "destination_path": "neue-signale-in-finnland0"
+      },
+      "en":
+      {
+        "title": "New Signals0",
+        "subtitle": "New objects on the map in Finnland",
+        "authors": "Nakaner",
+        "destination_path": "new-signals-in-finnland0"
+      }
+    }
+  }
+]

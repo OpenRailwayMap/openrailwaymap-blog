@@ -1,0 +1,4 @@
+<p>The rendering of signal icons on the map has been improved. Previously many signals were visible only at high zoom levels because they overlapped with neighboring icons. This phenomenon occurred especially in larger stations with a high density of data. This confused the users, because not every mapped signal was visible and the renderer decided randomly, which signals are displayed and which not.</p>
+<p>This behavior has now been corrected, so that all mapped signals are drawn on the map. Some signals may overlap with neighboring signals, but it is now directly visible to the user, how complete the data.</p>
+<p>In addition, some improvements have been made to avoid cutted icons at tile edges.</p>
+<p>Note: The changes will be visible on the map only after an automatic rerendering of the tiles.</p>

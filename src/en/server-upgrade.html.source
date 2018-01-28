@@ -1,0 +1,14 @@
+<p>We have successfully moved to a more powerful server. The growing amounts of data, the increasing number of website visitors and many new features required this.</p>
+<p>The new server has the following hardware features:</p>
+<ul>
+	<li>2x 240 GB SSD</li>
+	<li>16 GB RAM</li>
+	<li>1x Xeon Quadcore 2,4 GHz</li>
+</ul>
+<p>This means a significant performance increase over the previous server that had the following hardware features:</p>
+<ul>
+	<li>1x 80 GB HDD</li>
+	<li>2 GB RAM</li>
+	<li>1x Dualcore CPU 2,4 GHz</li>
+</ul>
+<p>Thus, the map and the search function should feel a bit smoother now, but above all, the server is now relieved significantly. However, some fine tuning of the database is also necessary to take full advantage of the new hardware.</p>

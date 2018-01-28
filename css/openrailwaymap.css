@@ -1,0 +1,162 @@
+html
+{
+	background: #f2f2f2;
+}
+
+a, .uk-link, a:hover, .uk-link:hover
+{
+	color: #4e9a06;
+}
+
+.uk-button-primary, .uk-pagination > .uk-active > span
+{
+	background-color: #4e9a06;
+	background-image: -webkit-linear-gradient(top, #78c72A, #4e9a06);
+	background-image: linear-gradient(to bottom, #78C72A, #4e9a06);
+}
+
+.uk-button-primary:hover, .uk-button-primary:focus
+{
+    background-color: #61b313;
+}
+
+.uk-button-primary:active, .uk-button-primary.uk-active
+{
+    background-color: #57a70c;
+}
+
+.uk-nav-navbar > li > a:hover,
+.uk-nav-navbar > li > a:focus,
+.uk-nav-navbar > li > a:active,
+.uk-nav-navbar > li > a.uk-active
+{
+	background-color: #4e9a06;
+}
+
+.uk-panel
+{
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #dddddd;
+	border-top: 1px solid #4e9a06;
+	box-shadow: 0px 0px 42px 5px rgba(232,232,232,1);
+}
+
+.uk-panel-box
+{
+	background-color: white;
+	border: 0px;
+}
+
+.uk-heading, .uk-h1, .uk-h2, .uk-h3
+{
+	color: #4e9a06;
+	font-weight: bold;
+}
+
+noscript .uk-alert
+{
+	margin-top: 20px;
+	border: 2px solid rgba(216,80,48,0.3);
+}
+
+.uk-overlay
+{
+	border-radius: 10px;
+	border: 1px solid #dddddd;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.uk-navbar
+{
+	border-radius: 0px;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+#mapNav
+{
+	margin-bottom: 10px;
+}
+
+.uk-navbar-brand
+{
+	font-weight: bolder;
+}
+
+.uk-alert
+{
+	border: 2px solid rgba(45,112,145,0.3);
+	border-radius: 8px;
+}
+
+.uk-alert-success
+{
+	background: #EBFFC6;
+	color: #659f13;
+	border-color: rgba(101,159,19,0.4);
+}
+
+.uk-panel-box
+{
+	border-radius: 8px;
+}
+
+.uk-heading-large
+{
+	text-shadow: 0px 0px 5px #ffffff;
+}
+
+.uk-text-large
+{
+	text-shadow: 0px 0px 5px #ffffff;
+}
+
+#fossgis-icon
+{
+	position: absolute;
+	top: 5px;
+}
+
+.uk-overlay-blur:hover img
+{
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+.uk-search
+{
+	border: 1px solid #DDD;
+	background: #FFF none repeat scroll 0% 0%;
+	color: #444;
+	transition: all 0.2s linear 0s;
+	border-radius: 4px;
+}
+
+#welcomeheader
+{
+	background: url('../img/header.png') 50% 0 no-repeat;
+	height: 400px;
+}
+
+#mapContainer
+{
+	z-index: -1000;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+}
+

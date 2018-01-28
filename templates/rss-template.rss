@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+	<channel>
+		<title>OpenRailwayMap</title>
+		<link>http://blog.openrailwaymap.org/</link>
+		<description>{{ description }}</description>
+		<language>de</language>
+		<copyright>Alexander Matheisen</copyright>
+		<pubDate>{{ latest_update }}</pubDate>
+		<atom:link href="http://blog.openrailwaymap.org/de.rss" rel="self" type="application/rss+xml"/>
+		<lastBuildDate>{{ latest_build }}</lastBuildDate>
+		<sy:updatePeriod>daily</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<image>
+			<url>http://www.openrailwaymap.org/img/openrailwaymap-310.png</url>
+			<title>OpenRailwayMap</title>
+			<link>http://blog.openrailwaymap.org/</link>
+		</image>
+		{% for entry in postings %}
+		<item>
+			<title>{{ entry.title }}</title>
+			<!--<description></description>-->
+			<link>http://blog.openrailwaymap.org/{{ language }}/{{ entry.destination_path }}.html</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org/{{ language }}/{{ entry.destination_path }}.html</guid>
+			<pubDate>{{ entry.pubdate }}</pubDate>
+			<content:encoded>
+				<![CDATA[
+				{% include entry.source_filename %}
+				]]>
+			</content:encoded>
+		</item>
+		{% endfor %}
+	</channel>
+</rss>
