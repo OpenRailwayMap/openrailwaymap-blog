@@ -1,0 +1,14 @@
+<p>Wir sind erfolgreich auf einen leistungsfähigeren Server umgezogen. Die immer weiter wachsenden Datenmengen, die ansteigenden Userzahlen und die vielen neuen Funktionen hatten dies erfordert.</p>
+<p>Der neue Server hat die folgende Hardwareausstattung:</p>
+<ul>
+	<li>2x 240 GB SSD</li>
+	<li>16 GB RAM</li>
+	<li>1x Xeon Quadcore 2,4 GHz</li>
+</ul>
+<p>Das bedeutet eine wesentliche Leistungssteigerung gegenüber dem bisherigen Server, der folgende Hardwareausstattung hatte:</p>
+<ul>
+	<li>1x 80 GB HDD</li>
+	<li>2 GB RAM</li>
+	<li>1x Dualcore CPU 2,4 GHz</li>
+</ul>
+<p>Damit sollte sich die Karte und die Suchfunktion nun leicht flüssiger anfühlen, vor allem aber wird der Server nun deutlich entlastet. Allerdings ist auch noch etwas Feintuning der Datenbank notwendig, um die neue Hardware optimal auszunutzen.</p>

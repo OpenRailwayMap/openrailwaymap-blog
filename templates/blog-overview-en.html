@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-language" content="en" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>OpenRailwayMap Blog</title>
+		<link rel="stylesheet" type="text/css" href="../js/uikit-2.20.3/css/uikit.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/openrailwaymap.css" />
+		<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="../js/uikit-2.20.3/js/uikit.min.js"></script>
+
+		<meta name="description" content="OpenRailwayMap - An OpenStreetMap-based project for creating a map of the world&#39;s railway infrastructure." />
+		<meta name="keywords" content="openstreetmap, openrailwaymap, alexander matheisen, rurseekatze, osm, matheisen, orm, eisenbahnkarte, bahnkarte, railmap, railway, railways, eisenbahn, streckenkarte">
+		<meta name="title" content="OpenRailwayMap" />
+		<meta name="author" content="Alexander Matheisen" />
+		<meta name="publisher" content="Alexander Matheisen" />
+		<meta name="page-topic" content="OpenRailwayMap" />
+		<meta name="robots" content="index,follow" />
+		<meta name="application-name" content="OpenRailwayMap" />
+
+		<link rel="icon" href="../img/openrailwaymap-16.png" type="image/png" />
+
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="OpenRailwayMap">
+		<link rel="manifest" href="manifest.json">
+
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@openrailwaymap" />
+		<meta name="twitter:title" content="OpenRailwayMap" />
+		<meta name="twitter:description" content="OpenRailwayMap - An OpenStreetMap-based project for creating a map of the world&amp;#39;s railway infrastructure." />
+		<meta name="twitter:url" content="http://www.openrailwaymap.org/">
+		<meta name="twitter:image" content="../img/openrailwaymap-310.png" />
+
+		<meta property="og:site_name" content="OpenRailwayMap" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="../img/openrailwaymap-600.png" />
+		<meta property="og:title" content="OpenRailwayMap" />
+		<meta property="og:url" content="http://www.openrailwaymap.org/" />
+		<meta property="og:description" content="OpenRailwayMap - An OpenStreetMap-based project for creating a map of the world&#39;s railway infrastructure." />
+
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-tooltip" content="OpenRailwayMap">
+		<meta name="msapplication-starturl" content="http://www.openrailwaymap.org/">
+		<meta name="msapplication-square70x70logo" content="../img/openrailwaymap-70.png">
+		<meta name="msapplication-square150x150logo" content="../img/openrailwaymap-150.png">
+		<meta name="msapplication-wide310x150logo" content="../img/openrailwaymap-310.png">
+		<meta name="msapplication-square310x310logo" content="../img/openrailwaymap-310.png">
+
+		<link rel="alternate" type="application/rss+xml" title="OpenRailwayMap" href="http://blog.openrailwaymap.org/en.rss" />
+		<link rel="search" type="application/opensearchdescription+xml" href="../opensearch.xml" title="OpenRailwayMap" />
+	</head>
+	<body>
+
+		<nav class="uk-navbar uk-margin-large-bottom">
+			<a class="uk-navbar-brand uk-hidden-small" href="layouts_frontpage.htmll"><img src="../img/openrailwaymap-28.png" /> OpenRailwayMap</a>
+			<ul class="uk-navbar-nav uk-hidden-small">
+				<li>
+					<a href="http://www.openrailwaymap.org/">Home</a>
+				</li>
+				<li>
+					<a href="http://www.openrailwaymap.org/about.html">About this project</a>
+				</li>
+				<li>
+					<a href="http://www.openrailwaymap.org/contribute.html">Contribute</a>
+				</li>
+				<li>
+					<a href="http://www.openrailwaymap.org/community.html">Community & News</a>
+				</li>
+				<li class="uk-active">
+					<a href="blog-en.html">Blog</a>
+				</li>
+				<li>
+					<a href="http://www.openrailwaymap.org/donation-en.html">Donate</a>
+				</li>
+				<li>
+					<a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap">Wiki</a>
+				</li>
+			</ul>
+			<div class="uk-navbar-flip">
+				<ul class="uk-navbar-nav">
+					<li class="uk-parent" data-uk-dropdown>
+						<a href="">Language</a>
+						<div class="uk-dropdown uk-dropdown-navbar">
+							<ul class="uk-nav uk-nav-navbar">
+								<li><a href="blog-de_{{ pagenumber }}.html">German</a></li>
+								<li><a href="blog-en_{{ pagenumber }}.html">English</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+			<div class="uk-navbar-brand uk-navbar-center uk-visible-small">OpenRailwayMap</div>
+		</nav>
+
+		<div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+			<div class="uk-grid" data-uk-grid-margin>
+				<div class="uk-width-medium-3-4">
+
+					{% for post in postings %}
+					<article class="uk-article">
+
+						<h1 class="uk-article-title">
+							<a href="{{ post.destination_path }}">{{ post.title }}</a>
+						</h1>
+
+						<p class="uk-article-meta">published on {{ post.pubdate|en_timestamp }}{% if post.moddate is not none %}, modified on {{ post.moddate|en_timestamp }}{% endif %}
+						</p>
+
+						{% include post.source_filename %}
+					</article>
+					{% endfor %}
+
+					<ul class="uk-pagination">
+						{% if pagenumber == 1 %}
+						<li class="uk-disabled"><span style="font-family: FontAwesome;">«</span></li>
+						{% else %}
+						<li><a href="/{{ html_base_path }}_{{ pagenumber - 1 }}.html"><span style="font-family: FontAwesome;">«</span></a></li>
+						<li><a href="/{{ html_base_path }}.html">1</a></li>
+						{% endif %}
+						{% if pagenumber - 3 > 2 %}
+						<li><span>...</span></li>
+						{% endif %}
+						{% for page in range(pagenumber - 3, pagenumber) %}
+							{% if page > 1 %}
+						<li><a href="/{{ html_base_path }}_{{ page }}.html">{{ page }}</a></li>
+							{% endif %}
+						{% endfor %}
+						<li class="uk-active"><span>{{ pagenumber }}</span></li>
+						{% for page in range(pagenumber + 1, pagenumber + 4) %}
+							{% if page < maxpages %}
+						<li><a href="/{{ html_base_path }}_{{ page }}.html">{{ page }}</a></li>
+							{% endif %}
+						{% endfor %}
+						{% if pagenumber + 3 < maxpages - 1 %}
+						<li><span>...</span></li>
+						{% endif %}
+						{% if pagenumber == maxpages %}
+						<li class="uk-disabled"><span style="font-family: FontAwesome;">»</span></li>
+						{% else %}
+						<li><a href="/{{ html_base_path }}_{{ maxpages }}.html">{{ maxpages }}</a></li>
+						<li><a href="/{{ html_base_path }}_{{ pagenumber + 1 }}.html"><span style="font-family: FontAwesome;">»</span></a></li>
+						{% endif %}
+					</ul>
+
+				</div>
+
+				<div class="uk-width-medium-1-4">
+					<div class="uk-panel uk-panel-box uk-text-center">
+						<img class="uk-border" width="120" height="120" src="../img/openrailwaymap-120.png" srcset="../img/openrailwaymap-120.png 1x, ../img/openrailwaymap-240.png 2x" alt="OpenRailwaymap logo">
+						<h3>OpenRailwayMap Blog</h3>
+						<p>In the blog you can find detailled articles about new features, past events and background information. The blog can also be subscribed using the <a href="/en.rss">RSS feed</a>.</p>
+					</div>
+					<div class="uk-panel">
+						<h3 class="uk-panel-title">Latest Articles</h3>
+						<ul class="uk-list uk-list-line">
+							{% for entry in latest_entries %}
+							<li><a href="{{ entry.destination_path }}">{{ entry.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+					<div class="uk-panel">
+						<h3 class="uk-panel-title">Other Channels</h3>
+						<ul class="uk-list">
+							<li><a href="http://lists.openrailwaymap.org/lists/listinfo/openrailwaymap">mailing list</a></li>
+							<li><a href="https://twitter.com/openrailwaymap">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="offcanvas" class="uk-offcanvas">
+			<div class="uk-offcanvas-bar">
+				<ul class="uk-nav uk-nav-offcanvas">
+					<li>
+						<a href="http://www.openrailwaymap.org/">Home</a>
+					</li>
+					<li>
+						<a href="http://www.openrailwaymap.org/about.html">About this project</a>
+					</li>
+					<li>
+						<a href="http://www.openrailwaymap.org/contribute.html">Contribute</a>
+					</li>
+					<li>
+						<a href="http://www.openrailwaymap.org/community.html">Community & News</a>
+					</li>
+					<li class="uk-active">
+						<a href="blog-en.html">Blog</a>
+					</li>
+					<li>
+						<a href="http://www.openrailwaymap.org/donation-en.html">Donate</a>
+					</li>
+					<li>
+						<a href="https://wiki.openstreetmap.org/wiki/OpenRailwayMap">Wiki</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+	</body>
+</html>
+

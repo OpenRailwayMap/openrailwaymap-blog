@@ -1,0 +1,3 @@
+<p>Die Kartendarstellung wurde modifiziert, sodass nun auch Streckennamen auf der Karte erscheinen, die mit dem Tag name=* erfasst wurden.</p>
+<p>Hinweis: Die Änderungen werden erst nach einem automatischen Neurendern der Tiles auf der Karte sichtbar.</p>
+<img src="http://www.matheisen.org/line-names.png" style="border: 1px solid black;" />
