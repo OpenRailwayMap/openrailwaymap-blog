@@ -1,5 +1,22 @@
 [
   {
+    "id": "https-support",
+    "languages": {
+      "de": {
+        "authors": "Alexander Matheisen",
+        "destination_path": "unterstuetzung-fuer-https",
+        "subtitle": "",
+        "title": "Unterstützung für HTTPS"
+      },
+      "en": {
+        "authors": "Alexander Matheisen",
+        "destination_path": "enabling-https",
+        "subtitle": "",
+        "title": "Enabling HTTPS"
+      }
+    }
+  },
+  {
     "id": "karlsruhe-january",
     "languages": {
       "de": {
