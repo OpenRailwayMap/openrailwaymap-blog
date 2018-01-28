@@ -1,3 +1,3 @@
 <p>The rendering of line names tagged with name=* was added to the map style.</p>
 <p>Note: The changes will be visible on the map only after an automatic rerendering of the tiles.</p>
-<img src="http://www.matheisen.org/line-names.png" style="border: 1px solid black;" />
+<img src="/img/5-line-names.png" style="border: 1px solid black;" />
