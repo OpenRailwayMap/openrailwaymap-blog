@@ -85,7 +85,8 @@ python3 $PATH_TO_TOOL/generate-pages.py -t templates/ -s src -o $DOCUMENT_ROOT c
         "title": "Enabling HTTPS"
       }
     }
-  },
+  }
+]
 ```
 
 `id` is the ID of an entry. `title` is the title, `destination_path` will be part of the final
