@@ -15,6 +15,25 @@ cd $DOCUMENT_ROOT
 ln -s $GIT_DIR/img img
 ln -s $GIT_DIR/js js
 ln -s $GIT_DIR/css css
+ln -s de.atom de.rss
+ln -s en.atom en.rss
+```
+
+* Add following to the configuration of your Apache web server:
+
+```Apache
+# permit access to /img, /js and /css because they point to locations outside of your document root
+<Location /img>
+    Require all granted
+</Location>
+<Location /js>
+    Require all granted
+</Location>
+<Location /css>
+    Require all granted
+</Location>
+
+Option +FollowSymLinks
 ```
 
 * Clone the repository of the
