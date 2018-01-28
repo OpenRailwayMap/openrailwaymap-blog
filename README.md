@@ -91,7 +91,7 @@ python3 $PATH_TO_TOOL/generate-pages.py -t templates/ -s src -o $DOCUMENT_ROOT c
 
 `id` is the ID of an entry. `title` is the title, `destination_path` will be part of the final
 public URL of this entry (the pattern is `https://HOST/LANGUAGE/DESTINATION_PATH.html`). It is
-recommended to choose a title which is similar to the title.
+recommended to choose a destination path which is similar to the title.
 
 The date of first publication will be added automatically at the next run of the blog generation
 tool. If you later modify it, these changes will be detected (except if your changes don't change
