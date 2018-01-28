@@ -117,7 +117,7 @@
 
 					<ul class="uk-pagination">
 						{% if previous_entry is not none %}
-						<li><a href="{{ previous_entry.destination_path }}.html"><i class="uk-icon-angle-double-left"></i></a></li>
+						<li><a href="{{ previous_entry.destination_path }}"><i class="uk-icon-angle-double-left"></i></a></li>
 						<li><span>{{ previous_entry.title }}</span></li>
 						{% else %}
 						<li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
@@ -125,7 +125,7 @@
 						{% endif %}
 						<li><span></span></li>
 						{% if next_entry is not none %}
-						<li><span>{{ next_entry.title }}</span></li> <li><a href="{{ next_entry.destination_path }}.html"><i class="uk-icon-angle-double-right"></i></a></li> {% else %}
+						<li><span>{{ next_entry.title }}</span></li> <li><a href="{{ next_entry.destination_path }}"><i class="uk-icon-angle-double-right"></i></a></li> {% else %}
 						<li><span></span></li>
 						<li class="uk-disabled"><span><i class="uk-icon-angle-double-right"></i></span></li>
 						{% endif %}
