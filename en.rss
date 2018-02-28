@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="http://blog.openrailwaymap.org/en.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Sun, 21 Jan 2018 20:01:00 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 28 Feb 2018 23:40:00 +0100</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,29 @@
 			<title>OpenRailwayMap</title>
 			<link>http://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>OpenRailwayMap auf der IT-Trans</title>
+			<description>Am 6. März wird sich die OpenRailwayMap auf der Messe IT-Trans präsentieren.</description>
+			<link>http://blog.openrailwaymap.org?lang=en#33</link>
+			<author>Alexander Matheisen</author>
+			<dc:creator>Alexander Matheisen</dc:creator>
+			<guid>http://blog.openrailwaymap.org?lang=en#33</guid>
+			<pubDate>Wed, 28 Feb 2018 23:40:00 +0100</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>From 6. to 8. of March, the <a href="http://www.it-trans.org/"> IT-Trans </a> will take place in Karlsruhe, Germany, an international conference and exhibition for intelligent solutions for public transport.</p>
+							<p>Since its first show in 2008, IT-Trans has been one of the world's leading events for the digitisation of public transport. Every second year the whole world of public transport, from multinational enterprises over small and medium sized businesses to aspiring startup companies, meets here.</p>
+							<p>On March 6, the OpenRailwayMap will be showcased at booth D12 together with <a href="http://www.geops.de/">geOps</a>. Project founder <a href="http://www.matheisen.org/">Alexander Matheisen</a> will be there all day to introduce the project and answer questions.</p>
+						</div>
+						<div class="uk-width-medium-1-2">
+							<a href="http://www.it-trans.org/"><img width="900" height="601" alt="" src="img/33-ittrans.png"></img></a>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Enabling HTTPS</title>
 			<description>OpenRailwayMap is now supporting HTTPS.</description>
