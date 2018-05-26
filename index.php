@@ -61,6 +61,8 @@
 					echo rss2html("https://blog.openrailwaymap.org/".$lang.".rss");
 				?>
 			</div>
+
+			<p><a href="https://www.openrailwaymap.org/imprint"><?php echo ($lang == "de") ? "Impressum &amp; Datenschutz" : "Imprint &amp; Privacy Policy" ?></a></p>
 		</div>
 	</body>
 </html>
