@@ -27,14 +27,14 @@
 		<meta name="date" content="2010-01-01" />
 		<meta name="page-topic" content="OpenRailwayMap" />
 		<meta name="robots" content="index,follow" />
-		<link rel="alternate" type="application/rss+xml" title="OpenRailwayMap RSS Feed" href="http://blog.openrailwaymap.org/<?php echo $lang; ?>.rss" />
+		<link rel="alternate" type="application/rss+xml" title="OpenRailwayMap RSS Feed" href="https://blog.openrailwaymap.org/<?php echo $lang; ?>.rss" />
 	</head>
 	<body>
 	<body id="background">
 		<div id="container">
 			<div id="titleframe" align="center">
         		<a href="#" id="title">OpenRailwayMap Blog</a>
-				<a href="http://blog.openrailwaymap.org/<?php echo $lang; ?>.rss" target="_blank" type="application/rss+xml"><img src="img/rss.svg" width="20px" /></a>
+				<a href="https://blog.openrailwaymap.org/<?php echo $lang; ?>.rss" target="_blank" type="application/rss+xml"><img src="img/rss.svg" width="20px" /></a>
      	 	</div>
 		  	<div id="contentframe" align="left">
 				<?php
@@ -58,7 +58,7 @@
 						}
 					}
 
-					echo rss2html("http://blog.openrailwaymap.org/".$lang.".rss");
+					echo rss2html("https://blog.openrailwaymap.org/".$lang.".rss");
 				?>
 			</div>
 		</div>
