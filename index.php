@@ -28,6 +28,7 @@
 		<meta name="page-topic" content="OpenRailwayMap" />
 		<meta name="robots" content="index,follow" />
 		<link rel="alternate" type="application/rss+xml" title="OpenRailwayMap RSS Feed" href="https://blog.openrailwaymap.org/<?php echo $lang; ?>.rss" />
+		<link rel="icon" href="https://openrailwaymap.org/img/openrailwaymap-16.png" type="image/png" />
 	</head>
 	<body>
 	<body id="background">
