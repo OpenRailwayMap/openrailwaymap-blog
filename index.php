@@ -5,10 +5,10 @@
 	$entry = explode(";", $langs[0]);
 	$langpair = explode("-", $entry[0]);
 
-	if ($_GET['lang'])
+	if (isset($_GET['lang'])) {
 		$langpair[0] = $_GET['lang'];
-
-	$lang = ($langpair[0] == "de") ? "de" : "en";
+	}
+	$lang = ($langpair[0] === "de") ? "de" : "en";
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -29,7 +29,6 @@
 		<meta name="robots" content="index,follow" />
 		<link rel="alternate" type="application/rss+xml" title="OpenRailwayMap RSS Feed" href="https://blog.openrailwaymap.org/<?php echo $lang; ?>.rss" />
 	</head>
-	<body>
 	<body id="background">
 		<div id="container">
 			<div id="titleframe" align="center">
@@ -62,7 +61,7 @@
 				?>
 			</div>
 
-			<p><a href="https://www.openrailwaymap.org/imprint"><?php echo ($lang == "de") ? "Impressum &amp; Datenschutz" : "Imprint &amp; Privacy Policy" ?></a></p>
+			<p><a href="https://www.openrailwaymap.org/imprint"><?php echo ($lang === "de") ? "Impressum &amp; Datenschutz" : "Imprint &amp; Privacy Policy" ?></a></p>
 		</div>
 	</body>
 </html>
