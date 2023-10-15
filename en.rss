@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="https://blog.openrailwaymap.org/en.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Wed, 28 Feb 2018 23:40:00 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 25 Oct 2023 21:40:00 +0200</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,29 @@
 			<title>OpenRailwayMap</title>
 			<link>https://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Improved search function and new API</title>
+			<description>OpenRailwayMap has got an improved search function based on a new API.</description>
+			<link>https://blog.openrailwaymap.org?lang=en#34</link>
+			<author>Michael Reichert</author>
+			<dc:creator>Michael Reichert</dc:creator>
+			<guid>https://blog.openrailwaymap.org?lang=en#34</guid>
+			<pubDate>Wed, 25 Oct 2023 21:40:00 +0200</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>The search function of OpenRailwayMap uses from now on a new implementation.</p>
+							<p>When searching for stations, previously only the <code>name=*</code> tag of OpenStreetMap was taken into account. From now on, all variants of the <code>name=* tag</code>, i.e. shortened, official and foreign-language names are used.</p>
+							<p>In the past, the string entered in the search field had to match the beginning of the name of the object. Instead, the new search uses a full-text index. Skipping the prefix of a station name (suburban stations without the name of the city, e.g. Nomentana instead of Roma Nomentana) will not prevent the station from appearing in the search results.</p>
+							<p>Sort order of results is now based on the estimated relevance of the train station which is calculated from the number of public transport route relations using the station. It is based on the assumption that more important stations are served by more public transport route relations in OpenStreetMap.</p>
+							<p>The search for milestones on railway lines was reimplemented as well. Both search functions use pre-processed database tables and additional indexes in order to be more efficient and provide faster search responses.</p>
+							<p>The documentation and the source code of the API the search function is based on can be <a href="https://github.com/OpenRailwayMap/OpenRailwayMap-api#api">found on GitHub</a>.</p>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>OpenRailwayMap auf der IT-Trans</title>
 			<description>Am 6. März wird sich die OpenRailwayMap auf der Messe IT-Trans präsentieren.</description>

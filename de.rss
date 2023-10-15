@@ -8,7 +8,7 @@
 		<copyright>Alexander Matheisen</copyright>
 		<pubDate>Sun, 28 Apr 2013 14:11:28 +0200</pubDate>
 		<atom:link href="https://blog.openrailwaymap.org/de.rss" rel="self" type="application/rss+xml"/>
-		<lastBuildDate>Wed, 28 Feb 2018 23:40:00 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 25 Oct 2023 21:40:00 +0200</lastBuildDate>
 		<sy:updatePeriod>daily</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<image>
@@ -16,6 +16,29 @@
 			<title>OpenRailwayMap</title>
 			<link>https://blog.openrailwaymap.org/</link>
 		</image>
+		<item>
+			<title>Verbesserte Suchfunktion und neue API</title>
+			<description>Die OpenRailwayMap hat eine überarbeitete Suchfunktion auf Basis einer neuen API erhalten.</description>
+			<link>https://blog.openrailwaymap.org?lang=de#34</link>
+			<author>Michael Reichert</author>
+			<dc:creator>Michael Reichert</dc:creator>
+			<guid>https://blog.openrailwaymap.org?lang=de#34</guid>
+			<pubDate>Wed, 25 Oct 2023 21:40:00 +0200</pubDate>
+			<content:encoded>
+				<![CDATA[
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-2">
+							<p>Die Suchfunktion der OpenRailwayMap nutzt ab sofort eine neue Implementierung.</p>
+							<p>Bei der Suche nach Betriebsstellen anhand ihres Namens wurde bislang nur das <code>name=*</code>-Tag aus OpenStreetMap ausgewertet. Künfig werden alle Varianten des <code>name=*-Tags</code>, also auch abgekürzte Varianten, offzielle und fremdsprachliche Namen verwendet.</p>
+							<p>Bislang musste der Name mit der Eingabe im Suchfeld mit dem Anfang des Namens in OpenStreetMap übereinstimmen. Künftig erfolgt die Suche auf einem Volltextindex. Das heißt, man kann bei Vorort-Bahnhöfen den Namen der Stadt in der Suchanfrage weglassen (Zuffenhausen statt Stuttgart-Zuffenhausen).</p>
+							<p>Die Sortierung der Ergebnisse nutzt dabei dieselbe Relevanz-Abschätzung, die auch für die Kartendarstellung eingesetzt wird. Die Annahme ist dabei, dass ein Bahnhof umso relevanter ist, je mehr ÖPNV-Routenrelationen ihn bedienen.</p>
+							<p>Auch die Suche nach Streckenkilometern anhand der Streckennummer wurde neu implementiert. Beide Suchfunktionen nutzen vorab aufbereitete Datenbanktabellen und zusätzliche Indexe, sodass sie deutlich effizienter und schneller sind.</p>
+							<p>Die Dokumentation und der Quellcode der zugrunde liegenden API sind <a href="https://github.com/OpenRailwayMap/OpenRailwayMap-api#api">auf GitHub zu finden</a>.</p>
+						</div>
+					</div>
+				]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>OpenRailwayMap auf der IT-Trans</title>
 			<description>Am 6. März wird sich die OpenRailwayMap auf der Messe IT-Trans präsentieren.</description>
